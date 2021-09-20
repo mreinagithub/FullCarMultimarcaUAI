@@ -1,0 +1,38 @@
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.BLL\bin\Debug\FullCarMultimarca.BLL.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.BLL\bin\Debug\FullCarMultimarca.BLL.pdb
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.BLL\bin\Debug\FullCarMultimarca.Abstracciones.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.BLL\bin\Debug\FullCarMultimarca.BE.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.BLL\bin\Debug\FullCarMultimarca.MPP.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.BLL\bin\Debug\FullCarMultimarca.Servicios.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.BLL\bin\Debug\FullCarMultimarca.Vistas.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.BLL\bin\Debug\FullCarMultimarca.DAL.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.BLL\bin\Debug\FullCarMultimarca.Abstracciones.pdb
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.BLL\bin\Debug\FullCarMultimarca.BE.pdb
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.BLL\bin\Debug\FullCarMultimarca.MPP.pdb
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.BLL\bin\Debug\FullCarMultimarca.Servicios.pdb
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.BLL\bin\Debug\FullCarMultimarca.Vistas.pdb
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.BLL\bin\Debug\FullCarMultimarca.DAL.pdb
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.BLL\obj\Debug\FullCarMultimarca.BLL.csproj.CoreCompileInputs.cache
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.BLL\obj\Debug\FullCarMultimarca.BLL.csproj.CopyComplete
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.BLL\obj\Debug\FullCarMultimarca.BLL.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.BLL\obj\Debug\FullCarMultimarca.BLL.pdb
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.BLL\obj\Debug\FullCarMultimarca.BLL.csproj.AssemblyReference.cache
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.BLL\bin\Debug\FullCarMultimarca.BLL.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.BLL\bin\Debug\FullCarMultimarca.BLL.pdb
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.BLL\bin\Debug\FullCarMultimarca.Abstracciones.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.BLL\bin\Debug\FullCarMultimarca.BE.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.BLL\bin\Debug\FullCarMultimarca.MPP.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.BLL\bin\Debug\FullCarMultimarca.Servicios.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.BLL\bin\Debug\FullCarMultimarca.Vistas.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.BLL\bin\Debug\FullCarMultimarca.DAL.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.BLL\bin\Debug\FullCarMultimarca.Abstracciones.pdb
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.BLL\bin\Debug\FullCarMultimarca.BE.pdb
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.BLL\bin\Debug\FullCarMultimarca.MPP.pdb
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.BLL\bin\Debug\FullCarMultimarca.Servicios.pdb
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.BLL\bin\Debug\FullCarMultimarca.Vistas.pdb
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.BLL\bin\Debug\FullCarMultimarca.DAL.pdb
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.BLL\obj\Debug\FullCarMultimarca.BLL.csproj.AssemblyReference.cache
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.BLL\obj\Debug\FullCarMultimarca.BLL.csproj.CoreCompileInputs.cache
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.BLL\obj\Debug\FullCarMultimarca.BLL.csproj.CopyComplete
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.BLL\obj\Debug\FullCarMultimarca.BLL.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.BLL\obj\Debug\FullCarMultimarca.BLL.pdb

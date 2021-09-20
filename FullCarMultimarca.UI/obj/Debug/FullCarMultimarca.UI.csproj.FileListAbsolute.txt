@@ -1,0 +1,156 @@
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\FullCarMultimarca.UI.exe.config
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\FullCarMultimarca.UI.exe
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\FullCarMultimarca.UI.pdb
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\FullCarMultimarca.Abstracciones.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\FullCarMultimarca.BE.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\FullCarMultimarca.BLL.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\FullCarMultimarca.Vistas.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\Microsoft.ReportViewer.Common.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\FullCarMultimarca.MPP.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\FullCarMultimarca.Servicios.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\Microsoft.SqlServer.Types.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\FullCarMultimarca.DAL.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\FullCarMultimarca.Abstracciones.pdb
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\FullCarMultimarca.BE.pdb
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\FullCarMultimarca.BLL.pdb
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\FullCarMultimarca.Vistas.pdb
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\FullCarMultimarca.MPP.pdb
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\FullCarMultimarca.Servicios.pdb
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\FullCarMultimarca.DAL.pdb
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Base.FormEditorBase.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Base.FormListaBase.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Base.TransDialog.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Gestion.FormCliente.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Gestion.FormListaClientes.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Gestion.FormListaTiposContacto.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Gestion.FormListaUnidades.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Gestion.FormTipoContacto.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Gestion.FormUnidad.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Ventas.FormEnviarPorMailFormulario.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Impresiones.FormImprimirFormulario.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Liquidaciones.FormLiquidarComisiones.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Liquidaciones.FormListaLiquidaciones.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Liquidaciones.FormVerLiquidacion.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Notification.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.UserControls.BuscadorCliente.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.UserControls.InputBoxConRegExp.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.FormMenu.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Gestion.FormColor.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Gestion.FormFormaPago.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Gestion.FormListaColores.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Gestion.FormListaFormaPago.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Gestion.FormListaMarcas.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Gestion.FormListaModelos.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Gestion.FormMarca.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Gestion.FormModelo.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Parametros.FormParametroComisiones.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Parametros.FormParametrosVentas.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Properties.Resources.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Seguridad.FormAltaUsuario.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Seguridad.FormCargarPalabraClave.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Seguridad.FormCatalogoBackup.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Seguridad.FormConfirmarBackup.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Seguridad.FormListaLogs.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Seguridad.FormListaUsuarios.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Seguridad.FormLogin.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Seguridad.FormModificarClave.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Seguridad.FormModificarUsuario.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Seguridad.FormParametros.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Seguridad.FormPermiso.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Seguridad.FormPermisos.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Seguridad.FormRestablecerClave.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Ventas.FormAutorizarOperacion.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Ventas.FormEstablecerOferta.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Ventas.FormListaOperaciones.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Ventas.FormListaOperacionesAAutorizar.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Ventas.FormListaStock.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Ventas.FormOperacion.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Ventas.FormOperacionFormaPago.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.csproj.GenerateResource.cache
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\RdlCompile.cache
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\RdlCompile.compiled
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.csproj.CoreCompileInputs.cache
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.csproj.CopyComplete
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.exe
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.pdb
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.csproj.AssemblyReference.cache
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\FullCarMultimarca.UI.exe.config
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\FullCarMultimarca.UI.exe
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\FullCarMultimarca.UI.pdb
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\FullCarMultimarca.Abstracciones.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\FullCarMultimarca.BE.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\FullCarMultimarca.BLL.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\FullCarMultimarca.Servicios.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\FullCarMultimarca.Vistas.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\Microsoft.ReportViewer.Common.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\FullCarMultimarca.MPP.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\Microsoft.SqlServer.Types.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\FullCarMultimarca.DAL.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\FullCarMultimarca.Abstracciones.pdb
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\FullCarMultimarca.BE.pdb
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\FullCarMultimarca.BLL.pdb
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\FullCarMultimarca.Servicios.pdb
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\FullCarMultimarca.Vistas.pdb
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\FullCarMultimarca.MPP.pdb
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\bin\Debug\FullCarMultimarca.DAL.pdb
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.csproj.AssemblyReference.cache
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Base.FormEditorBase.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Base.FormListaBase.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Base.TransDialog.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Gestion.FormCliente.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Gestion.FormListaClientes.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Gestion.FormListaTiposContacto.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Gestion.FormListaUnidades.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Gestion.FormTipoContacto.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Gestion.FormUnidad.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Ventas.FormEnviarPorMailFormulario.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Impresiones.FormImprimirFormulario.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Liquidaciones.FormLiquidarComisiones.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Liquidaciones.FormListaLiquidaciones.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Liquidaciones.FormVerLiquidacion.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Notification.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.UserControls.BuscadorCliente.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.UserControls.InputBoxConRegExp.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.FormMenu.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Gestion.FormColor.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Gestion.FormFormaPago.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Gestion.FormListaColores.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Gestion.FormListaFormaPago.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Gestion.FormListaMarcas.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Gestion.FormListaModelos.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Gestion.FormMarca.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Gestion.FormModelo.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Parametros.FormParametroComisiones.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Parametros.FormParametrosVentas.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Properties.Resources.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Seguridad.FormAltaUsuario.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Seguridad.FormCargarPalabraClave.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Seguridad.FormCatalogoBackup.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Seguridad.FormConfirmarBackup.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Seguridad.FormListaLogs.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Seguridad.FormListaUsuarios.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Seguridad.FormLogin.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Seguridad.FormModificarClave.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Seguridad.FormModificarUsuario.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Seguridad.FormParametros.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Seguridad.FormPermiso.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Seguridad.FormPermisos.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Seguridad.FormRestablecerClave.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Ventas.FormAutorizarOperacion.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Ventas.FormEstablecerOferta.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Ventas.FormListaOperaciones.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Ventas.FormListaOperacionesAAutorizar.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Ventas.FormListaStock.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Ventas.FormOperacion.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.Ventas.FormOperacionFormaPago.resources
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.csproj.GenerateResource.cache
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\RdlCompile.cache
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\RdlCompile.compiled
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.csproj.CoreCompileInputs.cache
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.csproj.CopyComplete
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.exe
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.UI\obj\Debug\FullCarMultimarca.UI.pdb

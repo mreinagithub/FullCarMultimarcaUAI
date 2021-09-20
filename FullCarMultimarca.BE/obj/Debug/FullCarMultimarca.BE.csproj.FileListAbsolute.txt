@@ -1,0 +1,22 @@
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.BE\bin\Debug\FullCarMultimarca.BE.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.BE\bin\Debug\FullCarMultimarca.BE.pdb
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.BE\bin\Debug\FullCarMultimarca.Abstracciones.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.BE\bin\Debug\FullCarMultimarca.Abstracciones.pdb
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.BE\obj\Debug\FullCarMultimarca.BE.csproj.CoreCompileInputs.cache
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.BE\obj\Debug\FullCarMultimarca.BE.csproj.CopyComplete
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.BE\obj\Debug\FullCarMultimarca.BE.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.BE\obj\Debug\FullCarMultimarca.BE.pdb
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.BE\obj\Debug\FullCarMultimarca.BE.csproj.AssemblyReference.cache
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.BE\bin\Debug\FullCarMultimarca.Servicios.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.BE\bin\Debug\FullCarMultimarca.Servicios.pdb
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.BE\bin\Debug\FullCarMultimarca.BE.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.BE\bin\Debug\FullCarMultimarca.BE.pdb
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.BE\bin\Debug\FullCarMultimarca.Abstracciones.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.BE\bin\Debug\FullCarMultimarca.Servicios.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.BE\bin\Debug\FullCarMultimarca.Abstracciones.pdb
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.BE\bin\Debug\FullCarMultimarca.Servicios.pdb
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.BE\obj\Debug\FullCarMultimarca.BE.csproj.AssemblyReference.cache
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.BE\obj\Debug\FullCarMultimarca.BE.csproj.CoreCompileInputs.cache
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.BE\obj\Debug\FullCarMultimarca.BE.csproj.CopyComplete
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.BE\obj\Debug\FullCarMultimarca.BE.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.BE\obj\Debug\FullCarMultimarca.BE.pdb

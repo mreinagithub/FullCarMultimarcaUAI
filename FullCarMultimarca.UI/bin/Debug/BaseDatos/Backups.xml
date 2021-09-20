@@ -1,0 +1,67 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Catalogo">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FechaYHora" type="xs:dateTime" />
+                <xs:element name="Creador" type="xs:string" minOccurs="0" />
+                <xs:element name="NombreArchivo" type="xs:string" minOccurs="0" />
+                <xs:element name="Descripcion" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Catalogo" />
+        <xs:field xpath="FechaYHora" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Catalogo>
+    <FechaYHora>2021-06-13T03:23:13.422211-03:00</FechaYHora>
+    <Creador>admin</Creador>
+    <NombreArchivo>20210613 032313-FullCarMultimarca.xml</NombreArchivo>
+    <Descripcion>Cambios en arquitectura</Descripcion>
+  </Catalogo>
+  <Catalogo>
+    <FechaYHora>2021-06-13T22:24:11.2301402-03:00</FechaYHora>
+    <Creador>admin</Creador>
+    <NombreArchivo>20210613 222411-FullCarMultimarca.xml</NombreArchivo>
+    <Descripcion>Label q caracteres Chasis</Descripcion>
+  </Catalogo>
+  <Catalogo>
+    <FechaYHora>2021-06-19T13:10:03.433907-03:00</FechaYHora>
+    <Creador>admin</Creador>
+    <NombreArchivo>20210619 131003-FullCarMultimarca.xml</NombreArchivo>
+    <Descripcion>tet</Descripcion>
+  </Catalogo>
+  <Catalogo>
+    <FechaYHora>2021-06-24T01:22:19.2061974-03:00</FechaYHora>
+    <Creador>admin</Creador>
+    <NombreArchivo>20210624 012219-FullCarMultimarca.xml</NombreArchivo>
+    <Descripcion>Backup preventivo</Descripcion>
+  </Catalogo>
+  <Catalogo>
+    <FechaYHora>2021-07-09T18:44:39.9420648-03:00</FechaYHora>
+    <Creador>admin</Creador>
+    <NombreArchivo>20210709 184439-FullCarMultimarca.xml</NombreArchivo>
+    <Descripcion>Backup previo envio TP Final</Descripcion>
+  </Catalogo>
+  <Catalogo>
+    <FechaYHora>2021-08-10T20:29:57.044284-03:00</FechaYHora>
+    <Creador>soporte</Creador>
+    <NombreArchivo>20210810 202957-FullCarMultimarca.xml</NombreArchivo>
+    <Descripcion>Backup previo presentación FINAL</Descripcion>
+  </Catalogo>
+  <Catalogo>
+    <FechaYHora>2021-08-13T12:28:21.9720406-03:00</FechaYHora>
+    <Creador>admin</Creador>
+    <NombreArchivo>20210813 122821-FullCarMultimarca.xml</NombreArchivo>
+    <Descripcion>Previo presentación FINAL 2</Descripcion>
+  </Catalogo>
+</NewDataSet>

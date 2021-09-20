@@ -1,0 +1,2321 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="VersionBD">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Version" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="FlagsSeguridad">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MinimoCaracteresPassword" type="xs:int" minOccurs="0" />
+                <xs:element name="IntentosBloqueoPassword" type="xs:int" minOccurs="0" />
+                <xs:element name="DiasVigenciaPassword" type="xs:int" minOccurs="0" />
+                <xs:element name="DebeContenerMayuscula" type="xs:boolean" minOccurs="0" />
+                <xs:element name="DebeContenerCaracterEspecial" type="xs:boolean" minOccurs="0" />
+                <xs:element name="DebeContenerNumero" type="xs:boolean" default="true" minOccurs="0" />
+                <xs:element name="DebeContenerMinuscula" type="xs:boolean" default="true" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Usuario">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="UsuarioID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+                <xs:element name="Logon" type="xs:string" minOccurs="0" />
+                <xs:element name="Nombre" type="xs:string" minOccurs="0" />
+                <xs:element name="Apellido" type="xs:string" minOccurs="0" />
+                <xs:element name="Bloqueado" type="xs:boolean" default="false" minOccurs="0" />
+                <xs:element name="Activo" type="xs:boolean" default="true" minOccurs="0" />
+                <xs:element name="Password" type="xs:string" minOccurs="0" />
+                <xs:element name="FechaUltimoCambioPassword" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="PalabraClave" type="xs:string" minOccurs="0" />
+                <xs:element name="RespuestaClave" type="xs:string" minOccurs="0" />
+                <xs:element name="CodigoPermiso" type="xs:string" minOccurs="0" />
+                <xs:element name="CodigoHash" type="xs:string" minOccurs="0" />
+                <xs:element name="Email" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Log">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="LogID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+                <xs:element name="Fecha" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Usuario" type="xs:string" minOccurs="0" />
+                <xs:element name="Operacion" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Permiso">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Codigo" type="xs:string" />
+                <xs:element name="Tipo" type="xs:string" minOccurs="0" />
+                <xs:element name="Descripcion" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="PermisoPermiso">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="CodigoPermiso1" type="xs:string" />
+                <xs:element name="CodigoPermiso2" type="xs:string" />
+                <xs:element name="Otorgado" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="ProteccionDatos">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Tabla" type="xs:string" />
+                <xs:element name="CodigoHash" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Marca">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MarcaID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+                <xs:element name="Descripcion" type="xs:string" minOccurs="0" />
+                <xs:element name="Activa" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Modelo">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Codigo" type="xs:string" />
+                <xs:element name="Descripcion" type="xs:string" minOccurs="0" />
+                <xs:element name="Tipo" type="xs:string" minOccurs="0" />
+                <xs:element name="MarcaID" type="xs:int" minOccurs="0" />
+                <xs:element name="Activo" type="xs:boolean" minOccurs="0" />
+                <xs:element name="PrecioPublico" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Pauta" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="ColorUnidad">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ColorID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+                <xs:element name="Descripcion" type="xs:string" minOccurs="0" />
+                <xs:element name="Activo" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="FormaPago">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FormaPagoID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+                <xs:element name="Tipo" type="xs:string" minOccurs="0" />
+                <xs:element name="Descripcion" type="xs:string" minOccurs="0" />
+                <xs:element name="ArancelGasto" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Activa" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="FlagsEmpresa">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="PorcentajeCoberturaARecuperar" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PorcentajeGastoPatentamiento" type="xs:decimal" minOccurs="0" />
+                <xs:element name="FormaPagoContadoDefault" type="xs:int" minOccurs="0" />
+                <xs:element name="DiasRetroactivoDeterminacionPauta" type="xs:int" minOccurs="0" />
+                <xs:element name="PorcentajeComisionN1" type="xs:decimal" minOccurs="0" />
+                <xs:element name="CantidadMinimaN2" type="xs:int" default="1" minOccurs="0" />
+                <xs:element name="PorcentajeComisionN2" type="xs:decimal" default="1" minOccurs="0" />
+                <xs:element name="CantidadMinimaN3" type="xs:int" default="1" minOccurs="0" />
+                <xs:element name="PorcentajeComisionN3" type="xs:decimal" default="1" minOccurs="0" />
+                <xs:element name="ImportePremioVolumen" type="xs:decimal" default="1" minOccurs="0" />
+                <xs:element name="DestinatariosNotificacionVencimientoOfertas" type="xs:string" minOccurs="0" />
+                <xs:element name="DestinatariosNotificacionAutorizacionAPerdida" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Provincia">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Nombre" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Cliente">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ClienteID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+                <xs:element name="CUIT" type="xs:string" minOccurs="0" />
+                <xs:element name="Nombre" type="xs:string" minOccurs="0" />
+                <xs:element name="Apellido" type="xs:string" minOccurs="0" />
+                <xs:element name="Direccion" type="xs:string" minOccurs="0" />
+                <xs:element name="Localidad" type="xs:string" minOccurs="0" />
+                <xs:element name="Provincia" type="xs:string" minOccurs="0" />
+                <xs:element name="CodigoPostal" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Contacto">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ClienteID" type="xs:int" />
+                <xs:element name="Tipo" type="xs:int" minOccurs="0" />
+                <xs:element name="Valor" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Unidad">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="UnidadID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+                <xs:element name="Chasis" type="xs:string" minOccurs="0" />
+                <xs:element name="CodigoModelo" type="xs:string" minOccurs="0" />
+                <xs:element name="ColorID" type="xs:int" minOccurs="0" />
+                <xs:element name="Disponible" type="xs:boolean" default="true" minOccurs="0" />
+                <xs:element name="FechaCompra" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="ImporteCompra" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Oferta" type="xs:decimal" minOccurs="0" />
+                <xs:element name="VencimientoOferta" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="CodigoHash" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Operacion">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Numero" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+                <xs:element name="Fecha" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Unidad" type="xs:int" minOccurs="0" />
+                <xs:element name="Cliente" type="xs:int" minOccurs="0" />
+                <xs:element name="UsuarioVendedor" type="xs:int" default="1" minOccurs="0" />
+                <xs:element name="PrecioPublico" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Pauta" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PatentaEmpresa" type="xs:boolean" minOccurs="0" />
+                <xs:element name="PrecioUnidad" type="xs:decimal" minOccurs="0" />
+                <xs:element name="GastoGestoria" type="xs:decimal" minOccurs="0" />
+                <xs:element name="GastoFinanciacion" type="xs:decimal" minOccurs="0" />
+                <xs:element name="GastoUsado" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PrecioFinal" type="xs:decimal" minOccurs="0" />
+                <xs:element name="CodigoHash" type="xs:string" minOccurs="0" />
+                <xs:element name="Estado" type="xs:string" minOccurs="0" />
+                <xs:element name="EsOferta" type="xs:boolean" minOccurs="0" />
+                <xs:element name="PorcentajeGastoGestoria" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Anulada" type="xs:boolean" minOccurs="0" />
+                <xs:element name="NotaRechazo" type="xs:string" minOccurs="0" />
+                <xs:element name="CodigoLiquidacion" type="xs:string" minOccurs="0" />
+                <xs:element name="AutorizadaEl" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="AutorizadaPor" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="OperacionFormaPago">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NumeroOperacion" type="xs:int" />
+                <xs:element name="FormaPagoID" type="xs:int" />
+                <xs:element name="Importe" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Modificable" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ArancelGasto" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TipoContacto">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TipoContactoID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+                <xs:element name="Descripcion" type="xs:string" minOccurs="0" />
+                <xs:element name="ExpresionValidacion" type="xs:string" minOccurs="0" />
+                <xs:element name="TextoAyuda" type="xs:string" minOccurs="0" />
+                <xs:element name="Activo" type="xs:boolean" minOccurs="0" />
+                <xs:element name="PermiteNotificaciones" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Liquidacion">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Codigo" type="xs:string" />
+                <xs:element name="FechaLiquidacion" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Comentarios" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="LiquidacionVendedor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="CodigoLiquidacion" type="xs:string" />
+                <xs:element name="UsuarioVendedor" type="xs:int" />
+                <xs:element name="PorcentajeComision" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PremioVolumen" type="xs:decimal" minOccurs="0" />
+                <xs:element name="CodigoHash" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Usuario" />
+        <xs:field xpath="UsuarioID" />
+      </xs:unique>
+      <xs:unique name="Log_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Log" />
+        <xs:field xpath="LogID" />
+      </xs:unique>
+      <xs:unique name="Permiso_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Permiso" />
+        <xs:field xpath="Codigo" />
+      </xs:unique>
+      <xs:unique name="PermisoPermiso_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//PermisoPermiso" />
+        <xs:field xpath="CodigoPermiso1" />
+        <xs:field xpath="CodigoPermiso2" />
+      </xs:unique>
+      <xs:unique name="ProteccionDatos_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//ProteccionDatos" />
+        <xs:field xpath="Tabla" />
+      </xs:unique>
+      <xs:unique name="Marca_Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Marca" />
+        <xs:field xpath="MarcaID" />
+      </xs:unique>
+      <xs:unique name="Modelo_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Modelo" />
+        <xs:field xpath="Codigo" />
+      </xs:unique>
+      <xs:unique name="ColorUnidad_Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//ColorUnidad" />
+        <xs:field xpath="ColorID" />
+      </xs:unique>
+      <xs:unique name="FormaPago_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//FormaPago" />
+        <xs:field xpath="FormaPagoID" />
+      </xs:unique>
+      <xs:unique name="Provincia_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Provincia" />
+        <xs:field xpath="Nombre" />
+      </xs:unique>
+      <xs:unique name="Cliente_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Cliente" />
+        <xs:field xpath="ClienteID" />
+      </xs:unique>
+      <xs:unique name="Contacto_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Contacto" />
+        <xs:field xpath="ClienteID" />
+        <xs:field xpath="Valor" />
+      </xs:unique>
+      <xs:unique name="Unidad_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Unidad" />
+        <xs:field xpath="UnidadID" />
+      </xs:unique>
+      <xs:unique name="Operacion_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Operacion" />
+        <xs:field xpath="Numero" />
+      </xs:unique>
+      <xs:unique name="OperacionFormaPago_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//OperacionFormaPago" />
+        <xs:field xpath="NumeroOperacion" />
+        <xs:field xpath="FormaPagoID" />
+      </xs:unique>
+      <xs:unique name="TipoContacto_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//TipoContacto" />
+        <xs:field xpath="TipoContactoID" />
+      </xs:unique>
+      <xs:unique name="Liquidacion_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Liquidacion" />
+        <xs:field xpath="Codigo" />
+      </xs:unique>
+      <xs:unique name="LiquidacionVendedor_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//LiquidacionVendedor" />
+        <xs:field xpath="CodigoLiquidacion" />
+        <xs:field xpath="UsuarioVendedor" />
+      </xs:unique>
+      <xs:keyref name="DR_LiquidacionVendedor_Vendedor" refer="Constraint1" msdata:DeleteRule="None">
+        <xs:selector xpath=".//LiquidacionVendedor" />
+        <xs:field xpath="UsuarioVendedor" />
+      </xs:keyref>
+      <xs:keyref name="DR_LiquidacionVendedor_Liquidacion" refer="Liquidacion_Constraint1">
+        <xs:selector xpath=".//LiquidacionVendedor" />
+        <xs:field xpath="CodigoLiquidacion" />
+      </xs:keyref>
+      <xs:keyref name="DR_OperacionFormaPago_Operacion" refer="Operacion_Constraint1">
+        <xs:selector xpath=".//OperacionFormaPago" />
+        <xs:field xpath="NumeroOperacion" />
+      </xs:keyref>
+      <xs:keyref name="DR_OperacionFormaPago_FormaPago" refer="FormaPago_Constraint1" msdata:DeleteRule="None">
+        <xs:selector xpath=".//OperacionFormaPago" />
+        <xs:field xpath="FormaPagoID" />
+      </xs:keyref>
+      <xs:keyref name="DR_Operacion_UsuarioAutorizacion" refer="Constraint1" msdata:DeleteRule="None">
+        <xs:selector xpath=".//Operacion" />
+        <xs:field xpath="AutorizadaPor" />
+      </xs:keyref>
+      <xs:keyref name="DR_Operacion_Unidad" refer="Unidad_Constraint1" msdata:DeleteRule="None">
+        <xs:selector xpath=".//Operacion" />
+        <xs:field xpath="Unidad" />
+      </xs:keyref>
+      <xs:keyref name="DR_Operacion_Cliente" refer="Cliente_Constraint1" msdata:DeleteRule="None">
+        <xs:selector xpath=".//Operacion" />
+        <xs:field xpath="Cliente" />
+      </xs:keyref>
+      <xs:keyref name="DR_Operacion_Vendedor" refer="Constraint1" msdata:DeleteRule="None">
+        <xs:selector xpath=".//Operacion" />
+        <xs:field xpath="UsuarioVendedor" />
+      </xs:keyref>
+      <xs:keyref name="DR_Unidad_Color" refer="ColorUnidad_Constraint1" msdata:DeleteRule="None">
+        <xs:selector xpath=".//Unidad" />
+        <xs:field xpath="ColorID" />
+      </xs:keyref>
+      <xs:keyref name="DR_Unidad_Modelo" refer="Modelo_Constraint1" msdata:DeleteRule="None">
+        <xs:selector xpath=".//Unidad" />
+        <xs:field xpath="CodigoModelo" />
+      </xs:keyref>
+      <xs:keyref name="DR_Cliente_Contacto" refer="Cliente_Constraint1">
+        <xs:selector xpath=".//Contacto" />
+        <xs:field xpath="ClienteID" />
+      </xs:keyref>
+      <xs:keyref name="DR_Contacto_TipoContacto" refer="TipoContacto_Constraint1" msdata:DeleteRule="None">
+        <xs:selector xpath=".//Contacto" />
+        <xs:field xpath="Tipo" />
+      </xs:keyref>
+      <xs:keyref name="DR_Cliente_Provincia" refer="Provincia_Constraint1" msdata:DeleteRule="None">
+        <xs:selector xpath=".//Cliente" />
+        <xs:field xpath="Provincia" />
+      </xs:keyref>
+      <xs:keyref name="DR_FormaPago_Parametro" refer="FormaPago_Constraint1">
+        <xs:selector xpath=".//FlagsEmpresa" />
+        <xs:field xpath="FormaPagoContadoDefault" />
+      </xs:keyref>
+      <xs:keyref name="DR_Marca_Modelo" refer="Marca_Constraint1">
+        <xs:selector xpath=".//Modelo" />
+        <xs:field xpath="MarcaID" />
+      </xs:keyref>
+      <xs:keyref name="DR_Permiso_Permiso_2" refer="Permiso_Constraint1">
+        <xs:selector xpath=".//PermisoPermiso" />
+        <xs:field xpath="CodigoPermiso2" />
+      </xs:keyref>
+      <xs:keyref name="DR_Permiso_Permiso_1" refer="Permiso_Constraint1">
+        <xs:selector xpath=".//PermisoPermiso" />
+        <xs:field xpath="CodigoPermiso1" />
+      </xs:keyref>
+      <xs:keyref name="DR_Usuario_Permiso" refer="Permiso_Constraint1" msdata:DeleteRule="None">
+        <xs:selector xpath=".//Usuario" />
+        <xs:field xpath="CodigoPermiso" />
+      </xs:keyref>
+    </xs:element>
+    <xs:annotation>
+      <xs:appinfo>
+        <msdata:Relationship name="DR_LiquidacionVendedor_Operacion" msdata:parent="LiquidacionVendedor" msdata:child="Operacion" msdata:parentkey="CodigoLiquidacion UsuarioVendedor" msdata:childkey="CodigoLiquidacion UsuarioVendedor" />
+      </xs:appinfo>
+    </xs:annotation>
+  </xs:schema>
+  <VersionBD>
+    <Version>26</Version>
+  </VersionBD>
+  <FlagsSeguridad>
+    <MinimoCaracteresPassword>6</MinimoCaracteresPassword>
+    <IntentosBloqueoPassword>3</IntentosBloqueoPassword>
+    <DiasVigenciaPassword>30</DiasVigenciaPassword>
+    <DebeContenerMayuscula>true</DebeContenerMayuscula>
+    <DebeContenerCaracterEspecial>true</DebeContenerCaracterEspecial>
+    <DebeContenerNumero>true</DebeContenerNumero>
+    <DebeContenerMinuscula>true</DebeContenerMinuscula>
+  </FlagsSeguridad>
+  <Usuario>
+    <UsuarioID>1</UsuarioID>
+    <Logon>admin</Logon>
+    <Nombre>Martin</Nombre>
+    <Apellido>Reina</Apellido>
+    <Bloqueado>false</Bloqueado>
+    <Activo>true</Activo>
+    <Password>o7doWU4BPHQ0I5o1xz7jc21kmu4=</Password>
+    <FechaUltimoCambioPassword>2021-06-05T12:12:59.0667224-03:00</FechaUltimoCambioPassword>
+    <PalabraClave>Respuesta "administrador"</PalabraClave>
+    <RespuestaClave>GH0Drf/PIzwKOt1ZmO0nfI0sFrQ=</RespuestaClave>
+    <CodigoPermiso>PCADMIN</CodigoPermiso>
+    <CodigoHash>6446553EB896DC6F2AD19047D2B8EB</CodigoHash>
+    <Email>martinreina84@hotmail.com</Email>
+  </Usuario>
+  <Usuario>
+    <UsuarioID>2</UsuarioID>
+    <Logon>supervisor</Logon>
+    <Nombre>Supervisor</Nombre>
+    <Apellido>Ventas</Apellido>
+    <Bloqueado>false</Bloqueado>
+    <Activo>true</Activo>
+    <Password>tZix31MkXt7FTodlN0gEOpqvvvg=</Password>
+    <FechaUltimoCambioPassword>2021-05-13T01:43:46.051526-03:00</FechaUltimoCambioPassword>
+    <PalabraClave>La respuesta es "supervisor"</PalabraClave>
+    <RespuestaClave>fXYUACQiI79Rt9p0JYx9rf2XaG8=</RespuestaClave>
+    <CodigoPermiso>PCSUP</CodigoPermiso>
+    <CodigoHash>7F5CDBDCBAAFDBAC45CF71B054D72B</CodigoHash>
+    <Email>martinreina84@gmail.com</Email>
+  </Usuario>
+  <Usuario>
+    <UsuarioID>3</UsuarioID>
+    <Logon>gerente</Logon>
+    <Nombre>Gerente</Nombre>
+    <Apellido>General</Apellido>
+    <Bloqueado>false</Bloqueado>
+    <Activo>true</Activo>
+    <Password>KoBXbm6ntBLrrTk5v0KNun4uR3A=</Password>
+    <FechaUltimoCambioPassword>2021-05-13T01:45:06.0310412-03:00</FechaUltimoCambioPassword>
+    <PalabraClave>La respuesta es "gerente"</PalabraClave>
+    <RespuestaClave>+adGtOIvC1TGm4LHqQka6d7JVDo=</RespuestaClave>
+    <CodigoPermiso>PCGTE</CodigoPermiso>
+    <CodigoHash>B317F3DC0EDECD2483A99F109BC8B5</CodigoHash>
+    <Email>mreina@daruma.com.ar</Email>
+  </Usuario>
+  <Usuario>
+    <UsuarioID>4</UsuarioID>
+    <Logon>vendedor1</Logon>
+    <Nombre>Vendedor</Nombre>
+    <Apellido>Uno</Apellido>
+    <Bloqueado>false</Bloqueado>
+    <Activo>true</Activo>
+    <Password>G3uzTgkwXoMX1NDkG1vZujS9J8w=</Password>
+    <FechaUltimoCambioPassword>2021-06-12T01:55:59.7675878-03:00</FechaUltimoCambioPassword>
+    <PalabraClave>La respuesta es "vendedor1"</PalabraClave>
+    <RespuestaClave>7aimOvEaSp2Ky3M8VzrmxlAw8EA=</RespuestaClave>
+    <CodigoPermiso>PCVEN</CodigoPermiso>
+    <CodigoHash>ABFC84B55EE734F87784804591AD37</CodigoHash>
+    <Email>MartinAlberto.Reina@alumnos.uai.edu.ar</Email>
+  </Usuario>
+  <Usuario>
+    <UsuarioID>5</UsuarioID>
+    <Logon>vendedor2</Logon>
+    <Nombre>Vendedor</Nombre>
+    <Apellido>Dos</Apellido>
+    <Bloqueado>false</Bloqueado>
+    <Activo>true</Activo>
+    <Password>G3uzTgkwXoMX1NDkG1vZujS9J8w=</Password>
+    <FechaUltimoCambioPassword>2021-06-09T01:48:01.2240395-03:00</FechaUltimoCambioPassword>
+    <PalabraClave>La respuesta es "vendedor2"</PalabraClave>
+    <RespuestaClave>FmyDTJnCy+q+KwmWIXYbNt8zajo=</RespuestaClave>
+    <CodigoPermiso>PCVEN</CodigoPermiso>
+    <CodigoHash>2C45D182F7FB6567D8ABF6616EF211</CodigoHash>
+    <Email>martinreina84@hotmail.com</Email>
+  </Usuario>
+  <Usuario>
+    <UsuarioID>6</UsuarioID>
+    <Logon>soporte</Logon>
+    <Nombre>Soporte</Nombre>
+    <Apellido>Sistemas</Apellido>
+    <Bloqueado>false</Bloqueado>
+    <Activo>true</Activo>
+    <Password>4e5eqXkCDRQsfve7F+os5hUByYo=</Password>
+    <FechaUltimoCambioPassword>2021-06-09T01:48:43.3131202-03:00</FechaUltimoCambioPassword>
+    <CodigoPermiso>PCSOP</CodigoPermiso>
+    <CodigoHash>59B30208D4CA62E6C98990921D5A2A</CodigoHash>
+    <Email>mreina@daruma.com.ar</Email>
+  </Usuario>
+  <Permiso>
+    <Codigo>PS1001</Codigo>
+    <Tipo>PermisoSimple</Tipo>
+    <Descripcion>Gestionar Usuarios</Descripcion>
+  </Permiso>
+  <Permiso>
+    <Codigo>PS1002</Codigo>
+    <Tipo>PermisoSimple</Tipo>
+    <Descripcion>Gestionar Parametros de Seguridad</Descripcion>
+  </Permiso>
+  <Permiso>
+    <Codigo>PS1003</Codigo>
+    <Tipo>PermisoSimple</Tipo>
+    <Descripcion>Ver Logs del Sistema</Descripcion>
+  </Permiso>
+  <Permiso>
+    <Codigo>PS1004</Codigo>
+    <Tipo>PermisoSimple</Tipo>
+    <Descripcion>Gestionar Permisos</Descripcion>
+  </Permiso>
+  <Permiso>
+    <Codigo>PS1005</Codigo>
+    <Tipo>PermisoSimple</Tipo>
+    <Descripcion>Gestionar Backups</Descripcion>
+  </Permiso>
+  <Permiso>
+    <Codigo>PCADMIN</Codigo>
+    <Tipo>PermisoCompuesto</Tipo>
+    <Descripcion>Administrador</Descripcion>
+  </Permiso>
+  <Permiso>
+    <Codigo>PS1006</Codigo>
+    <Tipo>PermisoSimple</Tipo>
+    <Descripcion>Gestionar Marcas</Descripcion>
+  </Permiso>
+  <Permiso>
+    <Codigo>PS1007</Codigo>
+    <Tipo>PermisoSimple</Tipo>
+    <Descripcion>Gestionar Modelos</Descripcion>
+  </Permiso>
+  <Permiso>
+    <Codigo>PCSUP</Codigo>
+    <Tipo>PermisoCompuesto</Tipo>
+    <Descripcion>Supervisor</Descripcion>
+  </Permiso>
+  <Permiso>
+    <Codigo>PS1008</Codigo>
+    <Tipo>PermisoSimple</Tipo>
+    <Descripcion>Gestionar Colores</Descripcion>
+  </Permiso>
+  <Permiso>
+    <Codigo>PS1009</Codigo>
+    <Tipo>PermisoSimple</Tipo>
+    <Descripcion>Gestionar Formas de Pago</Descripcion>
+  </Permiso>
+  <Permiso>
+    <Codigo>PS1010</Codigo>
+    <Tipo>PermisoSimple</Tipo>
+    <Descripcion>Gestionar Parámetros Ventas</Descripcion>
+  </Permiso>
+  <Permiso>
+    <Codigo>PS1011</Codigo>
+    <Tipo>PermisoSimple</Tipo>
+    <Descripcion>Gestionar Parámetros Comisiones</Descripcion>
+  </Permiso>
+  <Permiso>
+    <Codigo>PCGTE</Codigo>
+    <Tipo>PermisoCompuesto</Tipo>
+    <Descripcion>Gerente General</Descripcion>
+  </Permiso>
+  <Permiso>
+    <Codigo>PS1012</Codigo>
+    <Tipo>PermisoSimple</Tipo>
+    <Descripcion>Gestionar Clientes</Descripcion>
+  </Permiso>
+  <Permiso>
+    <Codigo>PS1013</Codigo>
+    <Tipo>PermisoSimple</Tipo>
+    <Descripcion>Gestionar Unidades</Descripcion>
+  </Permiso>
+  <Permiso>
+    <Codigo>PS2001</Codigo>
+    <Tipo>PermisoSimple</Tipo>
+    <Descripcion>Ver Stock</Descripcion>
+  </Permiso>
+  <Permiso>
+    <Codigo>PS2002</Codigo>
+    <Tipo>PermisoSimple</Tipo>
+    <Descripcion>Poner Unidad en Oferta</Descripcion>
+  </Permiso>
+  <Permiso>
+    <Codigo>PS2003</Codigo>
+    <Tipo>PermisoSimple</Tipo>
+    <Descripcion>Ver Operaciones</Descripcion>
+  </Permiso>
+  <Permiso>
+    <Codigo>PS2004</Codigo>
+    <Tipo>PermisoSimple</Tipo>
+    <Descripcion>Cargar Operacion Venta</Descripcion>
+  </Permiso>
+  <Permiso>
+    <Codigo>PS2005</Codigo>
+    <Tipo>PermisoSimple</Tipo>
+    <Descripcion>Ver MIS Operaciones</Descripcion>
+  </Permiso>
+  <Permiso>
+    <Codigo>PS2006</Codigo>
+    <Tipo>PermisoSimple</Tipo>
+    <Descripcion>Ver TODAS las Operaciones</Descripcion>
+  </Permiso>
+  <Permiso>
+    <Codigo>PS2007</Codigo>
+    <Tipo>PermisoSimple</Tipo>
+    <Descripcion>Autorizar Operaciones</Descripcion>
+  </Permiso>
+  <Permiso>
+    <Codigo>PCVEN</Codigo>
+    <Tipo>PermisoCompuesto</Tipo>
+    <Descripcion>Vendedor</Descripcion>
+  </Permiso>
+  <Permiso>
+    <Codigo>PCSOP</Codigo>
+    <Tipo>PermisoCompuesto</Tipo>
+    <Descripcion>Soporte</Descripcion>
+  </Permiso>
+  <Permiso>
+    <Codigo>PS2008</Codigo>
+    <Tipo>PermisoSimple</Tipo>
+    <Descripcion>Modificar Operación de Venta</Descripcion>
+  </Permiso>
+  <Permiso>
+    <Codigo>PS2009</Codigo>
+    <Tipo>PermisoSimple</Tipo>
+    <Descripcion>Anular Operación de Venta</Descripcion>
+  </Permiso>
+  <Permiso>
+    <Codigo>PS1014</Codigo>
+    <Tipo>PermisoSimple</Tipo>
+    <Descripcion>Gestionar Tipos de Contactos</Descripcion>
+  </Permiso>
+  <Permiso>
+    <Codigo>PS3001</Codigo>
+    <Tipo>PermisoSimple</Tipo>
+    <Descripcion>Ver Liquidaciones</Descripcion>
+  </Permiso>
+  <Permiso>
+    <Codigo>PS3002</Codigo>
+    <Tipo>PermisoSimple</Tipo>
+    <Descripcion>Crear Liquidación</Descripcion>
+  </Permiso>
+  <Permiso>
+    <Codigo>PS3003</Codigo>
+    <Tipo>PermisoSimple</Tipo>
+    <Descripcion>Eliminar Liquidación</Descripcion>
+  </Permiso>
+  <PermisoPermiso>
+    <CodigoPermiso1>PCSUP</CodigoPermiso1>
+    <CodigoPermiso2>PS1006</CodigoPermiso2>
+    <Otorgado>true</Otorgado>
+  </PermisoPermiso>
+  <PermisoPermiso>
+    <CodigoPermiso1>PCSUP</CodigoPermiso1>
+    <CodigoPermiso2>PS1007</CodigoPermiso2>
+    <Otorgado>true</Otorgado>
+  </PermisoPermiso>
+  <PermisoPermiso>
+    <CodigoPermiso1>PCSUP</CodigoPermiso1>
+    <CodigoPermiso2>PS1008</CodigoPermiso2>
+    <Otorgado>true</Otorgado>
+  </PermisoPermiso>
+  <PermisoPermiso>
+    <CodigoPermiso1>PCGTE</CodigoPermiso1>
+    <CodigoPermiso2>PS1009</CodigoPermiso2>
+    <Otorgado>true</Otorgado>
+  </PermisoPermiso>
+  <PermisoPermiso>
+    <CodigoPermiso1>PCGTE</CodigoPermiso1>
+    <CodigoPermiso2>PS1010</CodigoPermiso2>
+    <Otorgado>true</Otorgado>
+  </PermisoPermiso>
+  <PermisoPermiso>
+    <CodigoPermiso1>PCADMIN</CodigoPermiso1>
+    <CodigoPermiso2>PCGTE</CodigoPermiso2>
+    <Otorgado>true</Otorgado>
+  </PermisoPermiso>
+  <PermisoPermiso>
+    <CodigoPermiso1>PCGTE</CodigoPermiso1>
+    <CodigoPermiso2>PS1011</CodigoPermiso2>
+    <Otorgado>true</Otorgado>
+  </PermisoPermiso>
+  <PermisoPermiso>
+    <CodigoPermiso1>PCSUP</CodigoPermiso1>
+    <CodigoPermiso2>PS1012</CodigoPermiso2>
+    <Otorgado>true</Otorgado>
+  </PermisoPermiso>
+  <PermisoPermiso>
+    <CodigoPermiso1>PCSUP</CodigoPermiso1>
+    <CodigoPermiso2>PS1013</CodigoPermiso2>
+    <Otorgado>true</Otorgado>
+  </PermisoPermiso>
+  <PermisoPermiso>
+    <CodigoPermiso1>PCSUP</CodigoPermiso1>
+    <CodigoPermiso2>PS2001</CodigoPermiso2>
+    <Otorgado>true</Otorgado>
+  </PermisoPermiso>
+  <PermisoPermiso>
+    <CodigoPermiso1>PCSUP</CodigoPermiso1>
+    <CodigoPermiso2>PS2002</CodigoPermiso2>
+    <Otorgado>true</Otorgado>
+  </PermisoPermiso>
+  <PermisoPermiso>
+    <CodigoPermiso1>PCVEN</CodigoPermiso1>
+    <CodigoPermiso2>PS1012</CodigoPermiso2>
+    <Otorgado>true</Otorgado>
+  </PermisoPermiso>
+  <PermisoPermiso>
+    <CodigoPermiso1>PCVEN</CodigoPermiso1>
+    <CodigoPermiso2>PS2003</CodigoPermiso2>
+    <Otorgado>true</Otorgado>
+  </PermisoPermiso>
+  <PermisoPermiso>
+    <CodigoPermiso1>PCVEN</CodigoPermiso1>
+    <CodigoPermiso2>PS2004</CodigoPermiso2>
+    <Otorgado>true</Otorgado>
+  </PermisoPermiso>
+  <PermisoPermiso>
+    <CodigoPermiso1>PCVEN</CodigoPermiso1>
+    <CodigoPermiso2>PS2001</CodigoPermiso2>
+    <Otorgado>true</Otorgado>
+  </PermisoPermiso>
+  <PermisoPermiso>
+    <CodigoPermiso1>PCADMIN</CodigoPermiso1>
+    <CodigoPermiso2>PCVEN</CodigoPermiso2>
+    <Otorgado>true</Otorgado>
+  </PermisoPermiso>
+  <PermisoPermiso>
+    <CodigoPermiso1>PCSOP</CodigoPermiso1>
+    <CodigoPermiso2>PS1001</CodigoPermiso2>
+    <Otorgado>true</Otorgado>
+  </PermisoPermiso>
+  <PermisoPermiso>
+    <CodigoPermiso1>PCSOP</CodigoPermiso1>
+    <CodigoPermiso2>PS1004</CodigoPermiso2>
+    <Otorgado>true</Otorgado>
+  </PermisoPermiso>
+  <PermisoPermiso>
+    <CodigoPermiso1>PCSOP</CodigoPermiso1>
+    <CodigoPermiso2>PS1003</CodigoPermiso2>
+    <Otorgado>true</Otorgado>
+  </PermisoPermiso>
+  <PermisoPermiso>
+    <CodigoPermiso1>PCSOP</CodigoPermiso1>
+    <CodigoPermiso2>PS1005</CodigoPermiso2>
+    <Otorgado>true</Otorgado>
+  </PermisoPermiso>
+  <PermisoPermiso>
+    <CodigoPermiso1>PCSOP</CodigoPermiso1>
+    <CodigoPermiso2>PS1002</CodigoPermiso2>
+    <Otorgado>true</Otorgado>
+  </PermisoPermiso>
+  <PermisoPermiso>
+    <CodigoPermiso1>PCADMIN</CodigoPermiso1>
+    <CodigoPermiso2>PCSOP</CodigoPermiso2>
+    <Otorgado>true</Otorgado>
+  </PermisoPermiso>
+  <PermisoPermiso>
+    <CodigoPermiso1>PCVEN</CodigoPermiso1>
+    <CodigoPermiso2>PS2005</CodigoPermiso2>
+    <Otorgado>true</Otorgado>
+  </PermisoPermiso>
+  <PermisoPermiso>
+    <CodigoPermiso1>PCSUP</CodigoPermiso1>
+    <CodigoPermiso2>PS2003</CodigoPermiso2>
+    <Otorgado>true</Otorgado>
+  </PermisoPermiso>
+  <PermisoPermiso>
+    <CodigoPermiso1>PCSUP</CodigoPermiso1>
+    <CodigoPermiso2>PS2006</CodigoPermiso2>
+    <Otorgado>true</Otorgado>
+  </PermisoPermiso>
+  <PermisoPermiso>
+    <CodigoPermiso1>PCSUP</CodigoPermiso1>
+    <CodigoPermiso2>PS2007</CodigoPermiso2>
+    <Otorgado>true</Otorgado>
+  </PermisoPermiso>
+  <PermisoPermiso>
+    <CodigoPermiso1>PCVEN</CodigoPermiso1>
+    <CodigoPermiso2>PS2008</CodigoPermiso2>
+    <Otorgado>true</Otorgado>
+  </PermisoPermiso>
+  <PermisoPermiso>
+    <CodigoPermiso1>PCVEN</CodigoPermiso1>
+    <CodigoPermiso2>PS2009</CodigoPermiso2>
+    <Otorgado>true</Otorgado>
+  </PermisoPermiso>
+  <PermisoPermiso>
+    <CodigoPermiso1>PCSUP</CodigoPermiso1>
+    <CodigoPermiso2>PS1014</CodigoPermiso2>
+    <Otorgado>true</Otorgado>
+  </PermisoPermiso>
+  <PermisoPermiso>
+    <CodigoPermiso1>PCGTE</CodigoPermiso1>
+    <CodigoPermiso2>PS2006</CodigoPermiso2>
+    <Otorgado>true</Otorgado>
+  </PermisoPermiso>
+  <PermisoPermiso>
+    <CodigoPermiso1>PCGTE</CodigoPermiso1>
+    <CodigoPermiso2>PCSUP</CodigoPermiso2>
+    <Otorgado>true</Otorgado>
+  </PermisoPermiso>
+  <PermisoPermiso>
+    <CodigoPermiso1>PCGTE</CodigoPermiso1>
+    <CodigoPermiso2>PS2002</CodigoPermiso2>
+    <Otorgado>false</Otorgado>
+  </PermisoPermiso>
+  <PermisoPermiso>
+    <CodigoPermiso1>PCGTE</CodigoPermiso1>
+    <CodigoPermiso2>PS2007</CodigoPermiso2>
+    <Otorgado>false</Otorgado>
+  </PermisoPermiso>
+  <PermisoPermiso>
+    <CodigoPermiso1>PCADMIN</CodigoPermiso1>
+    <CodigoPermiso2>PCSUP</CodigoPermiso2>
+    <Otorgado>true</Otorgado>
+  </PermisoPermiso>
+  <PermisoPermiso>
+    <CodigoPermiso1>PCGTE</CodigoPermiso1>
+    <CodigoPermiso2>PS3001</CodigoPermiso2>
+    <Otorgado>true</Otorgado>
+  </PermisoPermiso>
+  <PermisoPermiso>
+    <CodigoPermiso1>PCGTE</CodigoPermiso1>
+    <CodigoPermiso2>PS3002</CodigoPermiso2>
+    <Otorgado>true</Otorgado>
+  </PermisoPermiso>
+  <PermisoPermiso>
+    <CodigoPermiso1>PCGTE</CodigoPermiso1>
+    <CodigoPermiso2>PS3003</CodigoPermiso2>
+    <Otorgado>true</Otorgado>
+  </PermisoPermiso>
+  <ProteccionDatos>
+    <Tabla>Usuario</Tabla>
+    <CodigoHash>EDB81E4486C0332DDC88281F8BAC68</CodigoHash>
+  </ProteccionDatos>
+  <ProteccionDatos>
+    <Tabla>Unidad</Tabla>
+    <CodigoHash>8EF5CED97C59EF02FD31E851CB1189</CodigoHash>
+  </ProteccionDatos>
+  <ProteccionDatos>
+    <Tabla>Operacion</Tabla>
+    <CodigoHash>2286BE45A6994DE027B369FAE9BF86</CodigoHash>
+  </ProteccionDatos>
+  <ProteccionDatos>
+    <Tabla>LiquidacionVendedor</Tabla>
+    <CodigoHash>EF7C6B949C39A91E104B3A4BAD1969</CodigoHash>
+  </ProteccionDatos>
+  <Marca>
+    <MarcaID>1</MarcaID>
+    <Descripcion>Volkswagen</Descripcion>
+    <Activa>true</Activa>
+  </Marca>
+  <Marca>
+    <MarcaID>2</MarcaID>
+    <Descripcion>Renault</Descripcion>
+    <Activa>true</Activa>
+  </Marca>
+  <Marca>
+    <MarcaID>3</MarcaID>
+    <Descripcion>Ford</Descripcion>
+    <Activa>true</Activa>
+  </Marca>
+  <Marca>
+    <MarcaID>4</MarcaID>
+    <Descripcion>Nissan</Descripcion>
+    <Activa>true</Activa>
+  </Marca>
+  <Marca>
+    <MarcaID>5</MarcaID>
+    <Descripcion>Peugeot</Descripcion>
+    <Activa>true</Activa>
+  </Marca>
+  <Modelo>
+    <Codigo>GTRHL</Codigo>
+    <Descripcion>Gol Trend Highline 5p aa</Descripcion>
+    <Tipo>ModeloResto</Tipo>
+    <MarcaID>1</MarcaID>
+    <Activo>true</Activo>
+    <PrecioPublico>1300255.27</PrecioPublico>
+    <Pauta>4.55</Pauta>
+  </Modelo>
+  <Modelo>
+    <Codigo>F-100</Codigo>
+    <Descripcion>Ford F-100 4x2 HLine</Descripcion>
+    <Tipo>ModeloPickUp</Tipo>
+    <MarcaID>3</MarcaID>
+    <Activo>false</Activo>
+    <PrecioPublico>5300750.00</PrecioPublico>
+    <Pauta>4.25</Pauta>
+  </Modelo>
+  <Modelo>
+    <Codigo>NSTDA</Codigo>
+    <Descripcion>Nissan Tida 5.0TDI</Descripcion>
+    <Tipo>ModeloResto</Tipo>
+    <MarcaID>4</MarcaID>
+    <Activo>true</Activo>
+    <PrecioPublico>2120390.00</PrecioPublico>
+    <Pauta>8.27</Pauta>
+  </Modelo>
+  <Modelo>
+    <Codigo>AMK100</Codigo>
+    <Descripcion>Amarok v8 Highline 4x4</Descripcion>
+    <Tipo>ModeloPickUp</Tipo>
+    <MarcaID>1</MarcaID>
+    <Activo>true</Activo>
+    <PrecioPublico>6390500.00</PrecioPublico>
+    <Pauta>15.2</Pauta>
+  </Modelo>
+  <Modelo>
+    <Codigo>SED206</Codigo>
+    <Descripcion>Peugeot 206XT 16cv turbo</Descripcion>
+    <Tipo>ModeloResto</Tipo>
+    <MarcaID>5</MarcaID>
+    <Activo>true</Activo>
+    <PrecioPublico>2350000.00</PrecioPublico>
+  </Modelo>
+  <Modelo>
+    <Codigo>P-207</Codigo>
+    <Descripcion>Peugeot 207RT 16v</Descripcion>
+    <Tipo>ModeloResto</Tipo>
+    <MarcaID>5</MarcaID>
+    <Activo>true</Activo>
+    <PrecioPublico>3500000.00</PrecioPublico>
+  </Modelo>
+  <Modelo>
+    <Codigo>NSMUR</Codigo>
+    <Descripcion>Nissan Murano v16 8500</Descripcion>
+    <Tipo>ModeloResto</Tipo>
+    <MarcaID>4</MarcaID>
+    <Activo>true</Activo>
+    <PrecioPublico>6238290.00</PrecioPublico>
+  </Modelo>
+  <Modelo>
+    <Codigo>FRRNG</Codigo>
+    <Descripcion>Ford Ranger Highline turbo 4x4</Descripcion>
+    <Tipo>ModeloPickUp</Tipo>
+    <MarcaID>3</MarcaID>
+    <Activo>true</Activo>
+    <PrecioPublico>10680300.00</PrecioPublico>
+  </Modelo>
+  <ColorUnidad>
+    <ColorID>1</ColorID>
+    <Descripcion>Blanco Cristal</Descripcion>
+    <Activo>true</Activo>
+  </ColorUnidad>
+  <ColorUnidad>
+    <ColorID>2</ColorID>
+    <Descripcion>Negro Profundo</Descripcion>
+    <Activo>true</Activo>
+  </ColorUnidad>
+  <ColorUnidad>
+    <ColorID>5</ColorID>
+    <Descripcion>Blazo Iriza</Descripcion>
+    <Activo>false</Activo>
+  </ColorUnidad>
+  <ColorUnidad>
+    <ColorID>6</ColorID>
+    <Descripcion>Rojo Fuego</Descripcion>
+    <Activo>true</Activo>
+  </ColorUnidad>
+  <ColorUnidad>
+    <ColorID>7</ColorID>
+    <Descripcion>Verde agua</Descripcion>
+    <Activo>true</Activo>
+  </ColorUnidad>
+  <ColorUnidad>
+    <ColorID>8</ColorID>
+    <Descripcion>Negro metalizado</Descripcion>
+    <Activo>true</Activo>
+  </ColorUnidad>
+  <ColorUnidad>
+    <ColorID>9</ColorID>
+    <Descripcion>Gris oscuro</Descripcion>
+    <Activo>true</Activo>
+  </ColorUnidad>
+  <ColorUnidad>
+    <ColorID>10</ColorID>
+    <Descripcion>Negro Opaco</Descripcion>
+    <Activo>true</Activo>
+  </ColorUnidad>
+  <ColorUnidad>
+    <ColorID>11</ColorID>
+    <Descripcion>Gris Plata</Descripcion>
+    <Activo>true</Activo>
+  </ColorUnidad>
+  <FormaPago>
+    <FormaPagoID>1</FormaPagoID>
+    <Tipo>FormaPagoContado</Tipo>
+    <Descripcion>Contado</Descripcion>
+    <ArancelGasto>0</ArancelGasto>
+    <Activa>true</Activa>
+  </FormaPago>
+  <FormaPago>
+    <FormaPagoID>2</FormaPagoID>
+    <Tipo>FormaPagoCredito</Tipo>
+    <Descripcion>Financiación Bco.Frances</Descripcion>
+    <ArancelGasto>7.50</ArancelGasto>
+    <Activa>true</Activa>
+  </FormaPago>
+  <FormaPago>
+    <FormaPagoID>3</FormaPagoID>
+    <Tipo>FormaPagoContado</Tipo>
+    <Descripcion>Seña</Descripcion>
+    <ArancelGasto>0</ArancelGasto>
+    <Activa>true</Activa>
+  </FormaPago>
+  <FormaPago>
+    <FormaPagoID>4</FormaPagoID>
+    <Tipo>FormaPagoCredito</Tipo>
+    <Descripcion>Financiación Santander</Descripcion>
+    <ArancelGasto>15.88</ArancelGasto>
+    <Activa>true</Activa>
+  </FormaPago>
+  <FormaPago>
+    <FormaPagoID>5</FormaPagoID>
+    <Tipo>FormaPagoUsado</Tipo>
+    <Descripcion>Toma Usado PickUp</Descripcion>
+    <ArancelGasto>18</ArancelGasto>
+    <Activa>true</Activa>
+  </FormaPago>
+  <FormaPago>
+    <FormaPagoID>6</FormaPagoID>
+    <Tipo>FormaPagoUsado</Tipo>
+    <Descripcion>Toma Usado Sedan</Descripcion>
+    <ArancelGasto>15.02</ArancelGasto>
+    <Activa>true</Activa>
+  </FormaPago>
+  <FormaPago>
+    <FormaPagoID>7</FormaPagoID>
+    <Tipo>FormaPagoCredito</Tipo>
+    <Descripcion>Financiación Bco. Industrial</Descripcion>
+    <ArancelGasto>8</ArancelGasto>
+    <Activa>true</Activa>
+  </FormaPago>
+  <FlagsEmpresa>
+    <PorcentajeCoberturaARecuperar>7.5</PorcentajeCoberturaARecuperar>
+    <PorcentajeGastoPatentamiento>3</PorcentajeGastoPatentamiento>
+    <FormaPagoContadoDefault>1</FormaPagoContadoDefault>
+    <DiasRetroactivoDeterminacionPauta>20</DiasRetroactivoDeterminacionPauta>
+    <PorcentajeComisionN1>0.75</PorcentajeComisionN1>
+    <CantidadMinimaN2>2</CantidadMinimaN2>
+    <PorcentajeComisionN2>0.90</PorcentajeComisionN2>
+    <CantidadMinimaN3>4</CantidadMinimaN3>
+    <PorcentajeComisionN3>1.10</PorcentajeComisionN3>
+    <ImportePremioVolumen>18500.00</ImportePremioVolumen>
+    <DestinatariosNotificacionVencimientoOfertas>martinreina84@hotmail.com;</DestinatariosNotificacionVencimientoOfertas>
+    <DestinatariosNotificacionAutorizacionAPerdida>mreina@daruma.com.ar</DestinatariosNotificacionAutorizacionAPerdida>
+  </FlagsEmpresa>
+  <Provincia>
+    <Nombre>Buenos Aires</Nombre>
+  </Provincia>
+  <Provincia>
+    <Nombre>CABA</Nombre>
+  </Provincia>
+  <Provincia>
+    <Nombre>Entre Ríos</Nombre>
+  </Provincia>
+  <Provincia>
+    <Nombre>Corrientes</Nombre>
+  </Provincia>
+  <Provincia>
+    <Nombre>Misiones</Nombre>
+  </Provincia>
+  <Provincia>
+    <Nombre>Santa Fe</Nombre>
+  </Provincia>
+  <Provincia>
+    <Nombre>Chaco</Nombre>
+  </Provincia>
+  <Provincia>
+    <Nombre>Formosa</Nombre>
+  </Provincia>
+  <Provincia>
+    <Nombre>Cordoba</Nombre>
+  </Provincia>
+  <Provincia>
+    <Nombre>Santiago del Estero</Nombre>
+  </Provincia>
+  <Provincia>
+    <Nombre>San Luis</Nombre>
+  </Provincia>
+  <Provincia>
+    <Nombre>La Pampa</Nombre>
+  </Provincia>
+  <Provincia>
+    <Nombre>Rio Negro</Nombre>
+  </Provincia>
+  <Provincia>
+    <Nombre>Chubut</Nombre>
+  </Provincia>
+  <Provincia>
+    <Nombre>Santa Cruz</Nombre>
+  </Provincia>
+  <Provincia>
+    <Nombre>Tierra del Fuego</Nombre>
+  </Provincia>
+  <Provincia>
+    <Nombre>Neuquen</Nombre>
+  </Provincia>
+  <Provincia>
+    <Nombre>Mendoza</Nombre>
+  </Provincia>
+  <Provincia>
+    <Nombre>San Juan</Nombre>
+  </Provincia>
+  <Provincia>
+    <Nombre>La Rioja</Nombre>
+  </Provincia>
+  <Provincia>
+    <Nombre>Catamarca</Nombre>
+  </Provincia>
+  <Provincia>
+    <Nombre>Tucuman</Nombre>
+  </Provincia>
+  <Provincia>
+    <Nombre>Salta</Nombre>
+  </Provincia>
+  <Provincia>
+    <Nombre>Jujuy</Nombre>
+  </Provincia>
+  <Cliente>
+    <ClienteID>2</ClienteID>
+    <CUIT>30-55962821-9</CUIT>
+    <Nombre>Jorge Asis Galarza</Nombre>
+    <Apellido>MR SOLUTIONS</Apellido>
+    <Direccion>Av. Crovara 1780</Direccion>
+    <Localidad>Almagro</Localidad>
+    <Provincia>CABA</Provincia>
+    <CodigoPostal>1708</CodigoPostal>
+  </Cliente>
+  <Cliente>
+    <ClienteID>3</ClienteID>
+    <CUIT>27-31774125-7</CUIT>
+    <Nombre>Adriana Elizabeth</Nombre>
+    <Apellido>CORREA</Apellido>
+    <Direccion>Cetrangolo 1890</Direccion>
+    <Localidad>Santa Rosa</Localidad>
+    <Provincia>La Pampa</Provincia>
+    <CodigoPostal>1880</CodigoPostal>
+  </Cliente>
+  <Cliente>
+    <ClienteID>4</ClienteID>
+    <CUIT>20-30780685-2</CUIT>
+    <Nombre>Martin A.</Nombre>
+    <Apellido>REINA</Apellido>
+    <Direccion>Bergami 2334
+Fondo</Direccion>
+    <Localidad>Hurlingham</Localidad>
+    <Provincia>Buenos Aires</Provincia>
+    <CodigoPostal>1686</CodigoPostal>
+  </Cliente>
+  <Cliente>
+    <ClienteID>5</ClienteID>
+    <CUIT>30-69116142-7</CUIT>
+    <Nombre>José Biancho</Nombre>
+    <Apellido>WESTERN UNION FIN.SERVICES ARG. S.R.L.</Apellido>
+    <Direccion>Av. Jujuy 1890 7mo C</Direccion>
+    <Localidad>Parque Patricios</Localidad>
+    <Provincia>CABA</Provincia>
+    <CodigoPostal>1704</CodigoPostal>
+  </Cliente>
+  <Cliente>
+    <ClienteID>6</ClienteID>
+    <CUIT>30-69114900-1</CUIT>
+    <Nombre>Miriam Bueno</Nombre>
+    <Apellido>TWG WARRANTY SERVICES, INC</Apellido>
+    <Direccion>Av. Cordoba 3850</Direccion>
+    <Localidad>Belgrano</Localidad>
+    <Provincia>CABA</Provincia>
+    <CodigoPostal>1580</CodigoPostal>
+  </Cliente>
+  <Cliente>
+    <ClienteID>7</ClienteID>
+    <CUIT>27-06656100-9</CUIT>
+    <Nombre>Luz Irene</Nombre>
+    <Apellido>BALEIRON</Apellido>
+    <Direccion>Bergami 2334 
+Frente</Direccion>
+    <Localidad>Hurlingham</Localidad>
+    <Provincia>Buenos Aires</Provincia>
+    <CodigoPostal>1686</CodigoPostal>
+  </Cliente>
+  <Cliente>
+    <ClienteID>8</ClienteID>
+    <CUIT>30-70920707-1</CUIT>
+    <Nombre>Jorge Palacios</Nombre>
+    <Apellido>DARUMA CONSULTING</Apellido>
+    <Direccion>Av. Rivadavia 18290 7mo B</Direccion>
+    <Localidad>Morón</Localidad>
+    <Provincia>Buenos Aires</Provincia>
+    <CodigoPostal>8897</CodigoPostal>
+  </Cliente>
+  <Cliente>
+    <ClienteID>9</ClienteID>
+    <CUIT>20-14614309-2</CUIT>
+    <Nombre>Raul Alberto</Nombre>
+    <Apellido>DE LUCA</Apellido>
+    <Direccion>Sanabria 1234</Direccion>
+    <Localidad>CABA</Localidad>
+    <Provincia>CABA</Provincia>
+    <CodigoPostal>AB1278C</CodigoPostal>
+  </Cliente>
+  <Cliente>
+    <ClienteID>10</ClienteID>
+    <CUIT>20-41069699-2</CUIT>
+    <Nombre>Matias Ezequiel</Nombre>
+    <Apellido>FERREYRA</Apellido>
+    <Direccion>Dorrego 1875</Direccion>
+    <Localidad>Avellaneda</Localidad>
+    <Provincia>Buenos Aires</Provincia>
+    <CodigoPostal>1717</CodigoPostal>
+  </Cliente>
+  <Cliente>
+    <ClienteID>11</ClienteID>
+    <CUIT>30-70216530-6</CUIT>
+    <Nombre>Juan Jose Campbell</Nombre>
+    <Apellido>AGRODIRECTO S.A.</Apellido>
+    <Direccion>Ruta 7km 260</Direccion>
+    <Localidad>Junin</Localidad>
+    <Provincia>Buenos Aires</Provincia>
+    <CodigoPostal>1745</CodigoPostal>
+  </Cliente>
+  <Cliente>
+    <ClienteID>12</ClienteID>
+    <CUIT>27-23770612-4</CUIT>
+    <Nombre>Alejandra</Nombre>
+    <Apellido>LAFOSSE</Apellido>
+    <Direccion>Av. de los Constituyentes 6648</Direccion>
+    <Localidad>Villa Giardino</Localidad>
+    <Provincia>Cordoba</Provincia>
+    <CodigoPostal>88789</CodigoPostal>
+  </Cliente>
+  <Cliente>
+    <ClienteID>13</ClienteID>
+    <CUIT>20-25029996-7</CUIT>
+    <Nombre>Alejandro</Nombre>
+    <Apellido>CANCELOS</Apellido>
+    <Direccion>Calle Falsa 123</Direccion>
+    <Localidad>Berazategui</Localidad>
+    <Provincia>Buenos Aires</Provincia>
+    <CodigoPostal>1530</CodigoPostal>
+  </Cliente>
+  <Contacto>
+    <ClienteID>5</ClienteID>
+    <Tipo>9</Tipo>
+    <Valor>@westernunioncia</Valor>
+  </Contacto>
+  <Contacto>
+    <ClienteID>9</ClienteID>
+    <Tipo>1</Tipo>
+    <Valor>011-44559977</Valor>
+  </Contacto>
+  <Contacto>
+    <ClienteID>10</ClienteID>
+    <Tipo>9</Tipo>
+    <Valor>@matieze10</Valor>
+  </Contacto>
+  <Contacto>
+    <ClienteID>10</ClienteID>
+    <Tipo>2</Tipo>
+    <Valor>011-15-87523245</Valor>
+  </Contacto>
+  <Contacto>
+    <ClienteID>11</ClienteID>
+    <Tipo>4</Tipo>
+    <Valor>https://agridirecto.com.ar</Valor>
+  </Contacto>
+  <Contacto>
+    <ClienteID>11</ClienteID>
+    <Tipo>1</Tipo>
+    <Valor>02320-123456</Valor>
+  </Contacto>
+  <Contacto>
+    <ClienteID>7</ClienteID>
+    <Tipo>2</Tipo>
+    <Valor>011-15-87283598</Valor>
+  </Contacto>
+  <Contacto>
+    <ClienteID>8</ClienteID>
+    <Tipo>4</Tipo>
+    <Valor>https://darumaconsulting.com.ar</Valor>
+  </Contacto>
+  <Contacto>
+    <ClienteID>8</ClienteID>
+    <Tipo>6</Tipo>
+    <Valor>Daruma Consulting Devs</Valor>
+  </Contacto>
+  <Contacto>
+    <ClienteID>8</ClienteID>
+    <Tipo>3</Tipo>
+    <Valor>martinreina84@gmail.com</Valor>
+  </Contacto>
+  <Contacto>
+    <ClienteID>3</ClienteID>
+    <Tipo>9</Tipo>
+    <Valor>@adriana_correa</Valor>
+  </Contacto>
+  <Contacto>
+    <ClienteID>3</ClienteID>
+    <Tipo>3</Tipo>
+    <Valor>aecorrea2012@gmail.com</Valor>
+  </Contacto>
+  <Contacto>
+    <ClienteID>2</ClienteID>
+    <Tipo>2</Tipo>
+    <Valor>011-15-65658723</Valor>
+  </Contacto>
+  <Contacto>
+    <ClienteID>2</ClienteID>
+    <Tipo>3</Tipo>
+    <Valor>mreina@daruma.com.ar</Valor>
+  </Contacto>
+  <Contacto>
+    <ClienteID>13</ClienteID>
+    <Tipo>3</Tipo>
+    <Valor>alcancelos@gmail.com</Valor>
+  </Contacto>
+  <Contacto>
+    <ClienteID>4</ClienteID>
+    <Tipo>2</Tipo>
+    <Valor>011-15-65133423</Valor>
+  </Contacto>
+  <Contacto>
+    <ClienteID>4</ClienteID>
+    <Tipo>1</Tipo>
+    <Valor>011-44592830</Valor>
+  </Contacto>
+  <Contacto>
+    <ClienteID>4</ClienteID>
+    <Tipo>3</Tipo>
+    <Valor>martinreina84@hotmail.com</Valor>
+  </Contacto>
+  <Contacto>
+    <ClienteID>4</ClienteID>
+    <Tipo>3</Tipo>
+    <Valor>mreina@daruma.com.ar</Valor>
+  </Contacto>
+  <Contacto>
+    <ClienteID>4</ClienteID>
+    <Tipo>9</Tipo>
+    <Valor>@martinreina10</Valor>
+  </Contacto>
+  <Contacto>
+    <ClienteID>12</ClienteID>
+    <Tipo>2</Tipo>
+    <Valor>0287-15-1587482</Valor>
+  </Contacto>
+  <Contacto>
+    <ClienteID>12</ClienteID>
+    <Tipo>9</Tipo>
+    <Valor>@ale_lafosse</Valor>
+  </Contacto>
+  <Contacto>
+    <ClienteID>12</ClienteID>
+    <Tipo>3</Tipo>
+    <Valor>mreina@daruma.com.ar</Valor>
+  </Contacto>
+  <Contacto>
+    <ClienteID>6</ClienteID>
+    <Tipo>2</Tipo>
+    <Valor>011-15-35253665</Valor>
+  </Contacto>
+  <Unidad>
+    <UnidadID>1</UnidadID>
+    <Chasis>NS123456QWERTQWAW</Chasis>
+    <CodigoModelo>F-100</CodigoModelo>
+    <ColorID>6</ColorID>
+    <Disponible>false</Disponible>
+    <FechaCompra>2021-05-17T00:00:00-03:00</FechaCompra>
+    <ImporteCompra>4130290.00</ImporteCompra>
+    <CodigoHash>68DB592D179DDDA0AC89D48AF26DE4</CodigoHash>
+  </Unidad>
+  <Unidad>
+    <UnidadID>2</UnidadID>
+    <Chasis>QWERTYUIOPAS12345</Chasis>
+    <CodigoModelo>SED206</CodigoModelo>
+    <ColorID>1</ColorID>
+    <Disponible>false</Disponible>
+    <FechaCompra>2021-05-20T00:00:00-03:00</FechaCompra>
+    <ImporteCompra>1760000.00</ImporteCompra>
+    <Oferta>2290000.00</Oferta>
+    <VencimientoOferta>2021-05-27T01:09:50.6566154-03:00</VencimientoOferta>
+    <CodigoHash>A84DB0686475EC6EF1B1E5D101C076</CodigoHash>
+  </Unidad>
+  <Unidad>
+    <UnidadID>3</UnidadID>
+    <Chasis>123456QWERTF878R7</Chasis>
+    <CodigoModelo>AMK100</CodigoModelo>
+    <ColorID>2</ColorID>
+    <Disponible>false</Disponible>
+    <FechaCompra>2021-05-20T00:00:00-03:00</FechaCompra>
+    <ImporteCompra>4350260.00</ImporteCompra>
+    <CodigoHash>6DD79C502F431E1CA4B1BAF4C301C9</CodigoHash>
+  </Unidad>
+  <Unidad>
+    <UnidadID>4</UnidadID>
+    <Chasis>TRYE125QW78S4D7EF</Chasis>
+    <CodigoModelo>P-207</CodigoModelo>
+    <ColorID>5</ColorID>
+    <Disponible>false</Disponible>
+    <FechaCompra>2021-05-18T00:00:00-03:00</FechaCompra>
+    <ImporteCompra>2680300.00</ImporteCompra>
+    <CodigoHash>CC23F68F7D5003C3FC2F464EA8C635</CodigoHash>
+  </Unidad>
+  <Unidad>
+    <UnidadID>5</UnidadID>
+    <Chasis>POR1258WEG78AW1QA</Chasis>
+    <CodigoModelo>P-207</CodigoModelo>
+    <ColorID>8</ColorID>
+    <Disponible>false</Disponible>
+    <FechaCompra>2019-08-01T00:00:00-03:00</FechaCompra>
+    <ImporteCompra>1990235.00</ImporteCompra>
+    <CodigoHash>1ED75787711C4CF8C5D57C63B8DEEB</CodigoHash>
+  </Unidad>
+  <Unidad>
+    <UnidadID>6</UnidadID>
+    <Chasis>AR1S2E5W77DE5R867</Chasis>
+    <CodigoModelo>NSTDA</CodigoModelo>
+    <ColorID>1</ColorID>
+    <Disponible>false</Disponible>
+    <FechaCompra>2018-07-18T00:00:00-03:00</FechaCompra>
+    <ImporteCompra>875329.22</ImporteCompra>
+    <CodigoHash>C87FEC945AAF42D1DD74340676B037</CodigoHash>
+  </Unidad>
+  <Unidad>
+    <UnidadID>7</UnidadID>
+    <Chasis>PLMOKNIJBUHV12348</Chasis>
+    <CodigoModelo>SED206</CodigoModelo>
+    <ColorID>2</ColorID>
+    <Disponible>false</Disponible>
+    <FechaCompra>2019-06-01T00:00:00-03:00</FechaCompra>
+    <ImporteCompra>930870.00</ImporteCompra>
+    <CodigoHash>679C65B1A1F5EBCC9767BB5E6C2002</CodigoHash>
+  </Unidad>
+  <Unidad>
+    <UnidadID>8</UnidadID>
+    <Chasis>TRIW158Q1A35E2RAA</Chasis>
+    <CodigoModelo>SED206</CodigoModelo>
+    <ColorID>6</ColorID>
+    <Disponible>false</Disponible>
+    <FechaCompra>2021-03-17T00:00:00-03:00</FechaCompra>
+    <ImporteCompra>1580000.00</ImporteCompra>
+    <CodigoHash>F2FEDDD196C2AF988B1D0859663A3F</CodigoHash>
+  </Unidad>
+  <Unidad>
+    <UnidadID>9</UnidadID>
+    <Chasis>NS15W2E5Q3WTTTE87</Chasis>
+    <CodigoModelo>AMK100</CodigoModelo>
+    <ColorID>2</ColorID>
+    <Disponible>false</Disponible>
+    <FechaCompra>2021-04-17T00:00:00-03:00</FechaCompra>
+    <ImporteCompra>3990758.00</ImporteCompra>
+    <CodigoHash>EB9782ECA3A234ADCAE695E9D3F8AA</CodigoHash>
+  </Unidad>
+  <Unidad>
+    <UnidadID>10</UnidadID>
+    <Chasis>RRW2W3Q5E8R7S1E28</Chasis>
+    <CodigoModelo>P-207</CodigoModelo>
+    <ColorID>8</ColorID>
+    <Disponible>false</Disponible>
+    <FechaCompra>2021-04-18T00:00:00-03:00</FechaCompra>
+    <ImporteCompra>2190750.00</ImporteCompra>
+    <CodigoHash>4FE0E68A1142EC2D083A48BB4877B8</CodigoHash>
+  </Unidad>
+  <Unidad>
+    <UnidadID>11</UnidadID>
+    <Chasis>TRE58Q7A1W2R369T1</Chasis>
+    <CodigoModelo>GTRHL</CodigoModelo>
+    <ColorID>9</ColorID>
+    <Disponible>false</Disponible>
+    <FechaCompra>2021-04-17T00:00:00-03:00</FechaCompra>
+    <ImporteCompra>780266.27</ImporteCompra>
+    <CodigoHash>F397E0E647A9BCB055624B2505892F</CodigoHash>
+  </Unidad>
+  <Unidad>
+    <UnidadID>12</UnidadID>
+    <Chasis>1W4A8R2W3Q8W7QQ5Q</Chasis>
+    <CodigoModelo>FRRNG</CodigoModelo>
+    <ColorID>7</ColorID>
+    <Disponible>false</Disponible>
+    <FechaCompra>2021-05-18T00:00:00-03:00</FechaCompra>
+    <ImporteCompra>8197290.00</ImporteCompra>
+    <CodigoHash>A01D06327F871EFB4092249B6DCF9B</CodigoHash>
+  </Unidad>
+  <Unidad>
+    <UnidadID>13</UnidadID>
+    <Chasis>EQW2A3W87E11R66Q7</Chasis>
+    <CodigoModelo>NSMUR</CodigoModelo>
+    <ColorID>9</ColorID>
+    <Disponible>false</Disponible>
+    <FechaCompra>2021-05-07T00:00:00-03:00</FechaCompra>
+    <ImporteCompra>4680290.00</ImporteCompra>
+    <CodigoHash>815F834F482B31155A2BC228754F69</CodigoHash>
+  </Unidad>
+  <Unidad>
+    <UnidadID>14</UnidadID>
+    <Chasis>IWUR8A2W3Q5WS2Q17</Chasis>
+    <CodigoModelo>NSMUR</CodigoModelo>
+    <ColorID>9</ColorID>
+    <Disponible>false</Disponible>
+    <FechaCompra>2021-05-05T00:00:00-03:00</FechaCompra>
+    <ImporteCompra>4680290.00</ImporteCompra>
+    <CodigoHash>7D6C009D39B9CD73CC465758916EFA</CodigoHash>
+  </Unidad>
+  <Unidad>
+    <UnidadID>15</UnidadID>
+    <Chasis>RTR1W8Q7413254W89</Chasis>
+    <CodigoModelo>AMK100</CodigoModelo>
+    <ColorID>2</ColorID>
+    <Disponible>false</Disponible>
+    <FechaCompra>2021-05-20T00:00:00-03:00</FechaCompra>
+    <ImporteCompra>5100000.00</ImporteCompra>
+    <CodigoHash>DAA7AAEF1CCE01A55D4684CF95D41C</CodigoHash>
+  </Unidad>
+  <Unidad>
+    <UnidadID>16</UnidadID>
+    <Chasis>TRYW8S7H7TT45D2Q3</Chasis>
+    <CodigoModelo>SED206</CodigoModelo>
+    <ColorID>7</ColorID>
+    <Disponible>false</Disponible>
+    <FechaCompra>2021-03-18T00:00:00-03:00</FechaCompra>
+    <ImporteCompra>1480000.00</ImporteCompra>
+    <CodigoHash>1454B93E71C1CDE146012CA057422B</CodigoHash>
+  </Unidad>
+  <Unidad>
+    <UnidadID>17</UnidadID>
+    <Chasis>RA277RT8Q7EE1A215</Chasis>
+    <CodigoModelo>AMK100</CodigoModelo>
+    <ColorID>7</ColorID>
+    <Disponible>false</Disponible>
+    <FechaCompra>2021-06-11T00:00:00-03:00</FechaCompra>
+    <ImporteCompra>5184260.00</ImporteCompra>
+    <CodigoHash>BB0047DB2E2536A2E2888A4485E5E2</CodigoHash>
+  </Unidad>
+  <Unidad>
+    <UnidadID>18</UnidadID>
+    <Chasis>1EQ4Q88W2W13QWER5</Chasis>
+    <CodigoModelo>SED206</CodigoModelo>
+    <ColorID>6</ColorID>
+    <Disponible>true</Disponible>
+    <FechaCompra>2021-06-01T00:00:00-03:00</FechaCompra>
+    <ImporteCompra>1325000.00</ImporteCompra>
+    <CodigoHash>F29D9D3D1D70644CB1DFF620E32122</CodigoHash>
+  </Unidad>
+  <Unidad>
+    <UnidadID>19</UnidadID>
+    <Chasis>1S2E3AAE8RTG1T57R</Chasis>
+    <CodigoModelo>NSMUR</CodigoModelo>
+    <ColorID>9</ColorID>
+    <Disponible>true</Disponible>
+    <FechaCompra>2021-06-10T00:00:00-03:00</FechaCompra>
+    <ImporteCompra>4578266.00</ImporteCompra>
+    <Oferta>5960000.00</Oferta>
+    <VencimientoOferta>2021-06-13T22:20:20.6261606-03:00</VencimientoOferta>
+    <CodigoHash>1B8CF937791FBC18F9396F3F8AE03D</CodigoHash>
+  </Unidad>
+  <Unidad>
+    <UnidadID>20</UnidadID>
+    <Chasis>E5Q3311Q5W33Q58Q7</Chasis>
+    <CodigoModelo>SED206</CodigoModelo>
+    <ColorID>11</ColorID>
+    <Disponible>true</Disponible>
+    <FechaCompra>2021-05-01T00:00:00-03:00</FechaCompra>
+    <ImporteCompra>1690260.00</ImporteCompra>
+    <CodigoHash>8FD0525F5B55CEB655278725264BCD</CodigoHash>
+  </Unidad>
+  <Operacion>
+    <Numero>1</Numero>
+    <Fecha>2021-05-26T00:00:00-03:00</Fecha>
+    <Unidad>1</Unidad>
+    <Cliente>4</Cliente>
+    <UsuarioVendedor>1</UsuarioVendedor>
+    <PrecioPublico>5300750.00</PrecioPublico>
+    <Pauta>0.0744</Pauta>
+    <PatentaEmpresa>true</PatentaEmpresa>
+    <PrecioUnidad>5100000.00</PrecioUnidad>
+    <CodigoHash>97030E777BDD12CF32FAFCEAE77724</CodigoHash>
+    <Estado>Autorizada</Estado>
+    <EsOferta>false</EsOferta>
+    <PorcentajeGastoGestoria>0.025</PorcentajeGastoGestoria>
+    <Anulada>true</Anulada>
+  </Operacion>
+  <Operacion>
+    <Numero>2</Numero>
+    <Fecha>2021-05-26T00:00:00-03:00</Fecha>
+    <Unidad>6</Unidad>
+    <Cliente>7</Cliente>
+    <UsuarioVendedor>4</UsuarioVendedor>
+    <PrecioPublico>2120390.00</PrecioPublico>
+    <Pauta>0.4630</Pauta>
+    <PatentaEmpresa>true</PatentaEmpresa>
+    <PrecioUnidad>1200000.00</PrecioUnidad>
+    <CodigoHash>66584EB00C615C42563417174576B5</CodigoHash>
+    <Estado>Autorizada</Estado>
+    <EsOferta>true</EsOferta>
+    <PorcentajeGastoGestoria>0.025</PorcentajeGastoGestoria>
+    <Anulada>true</Anulada>
+  </Operacion>
+  <Operacion>
+    <Numero>3</Numero>
+    <Fecha>2021-05-27T00:00:00-03:00</Fecha>
+    <Unidad>2</Unidad>
+    <Cliente>5</Cliente>
+    <UsuarioVendedor>1</UsuarioVendedor>
+    <PrecioPublico>2350000.00</PrecioPublico>
+    <Pauta>0.0258</Pauta>
+    <PatentaEmpresa>true</PatentaEmpresa>
+    <PrecioUnidad>2290000.00</PrecioUnidad>
+    <CodigoHash>50C98510865385C0FF97278F47702A</CodigoHash>
+    <Estado>Autorizada</Estado>
+    <EsOferta>true</EsOferta>
+    <PorcentajeGastoGestoria>0.025</PorcentajeGastoGestoria>
+    <Anulada>false</Anulada>
+    <CodigoLiquidacion>JUN-01</CodigoLiquidacion>
+  </Operacion>
+  <Operacion>
+    <Numero>4</Numero>
+    <Fecha>2021-05-27T00:00:00-03:00</Fecha>
+    <Unidad>11</Unidad>
+    <Cliente>8</Cliente>
+    <UsuarioVendedor>5</UsuarioVendedor>
+    <PrecioPublico>1300255.27</PrecioPublico>
+    <Pauta>0.2194</Pauta>
+    <PatentaEmpresa>true</PatentaEmpresa>
+    <PrecioUnidad>1050000.00</PrecioUnidad>
+    <CodigoHash>B8391AA3665A47D3430D7723D32B28</CodigoHash>
+    <Estado>Autorizada</Estado>
+    <EsOferta>false</EsOferta>
+    <PorcentajeGastoGestoria>0.025</PorcentajeGastoGestoria>
+    <Anulada>false</Anulada>
+    <NotaRechazo>No se cubre el valor mínimo de la unidad.
+Renegociar por al menos un precio de unidad de $1.050.000</NotaRechazo>
+    <CodigoLiquidacion>JUN-01</CodigoLiquidacion>
+  </Operacion>
+  <Operacion>
+    <Numero>5</Numero>
+    <Fecha>2021-05-27T00:00:00-03:00</Fecha>
+    <Unidad>8</Unidad>
+    <Cliente>7</Cliente>
+    <UsuarioVendedor>4</UsuarioVendedor>
+    <PrecioPublico>2350000.00</PrecioPublico>
+    <Pauta>0.1255</Pauta>
+    <PatentaEmpresa>true</PatentaEmpresa>
+    <PrecioUnidad>2200000.00</PrecioUnidad>
+    <CodigoHash>7612AB0485924E45FF949599D17E82</CodigoHash>
+    <Estado>Autorizada</Estado>
+    <EsOferta>false</EsOferta>
+    <PorcentajeGastoGestoria>0.025</PorcentajeGastoGestoria>
+    <Anulada>true</Anulada>
+  </Operacion>
+  <Operacion>
+    <Numero>6</Numero>
+    <Fecha>2021-05-27T00:00:00-03:00</Fecha>
+    <Unidad>7</Unidad>
+    <Cliente>7</Cliente>
+    <UsuarioVendedor>4</UsuarioVendedor>
+    <PrecioPublico>2350000.00</PrecioPublico>
+    <Pauta>0.1255</Pauta>
+    <PatentaEmpresa>true</PatentaEmpresa>
+    <PrecioUnidad>1950290.33</PrecioUnidad>
+    <CodigoHash>5DD4F972951AD6187569D4211172C3</CodigoHash>
+    <Estado>Autorizada</Estado>
+    <EsOferta>false</EsOferta>
+    <PorcentajeGastoGestoria>0.025</PorcentajeGastoGestoria>
+    <Anulada>false</Anulada>
+    <NotaRechazo />
+    <CodigoLiquidacion>JUN-01</CodigoLiquidacion>
+  </Operacion>
+  <Operacion>
+    <Numero>7</Numero>
+    <Fecha>2021-05-28T00:00:00-03:00</Fecha>
+    <Unidad>12</Unidad>
+    <Cliente>10</Cliente>
+    <UsuarioVendedor>1</UsuarioVendedor>
+    <PrecioPublico>10680300.00</PrecioPublico>
+    <Pauta>0.0883</Pauta>
+    <PatentaEmpresa>true</PatentaEmpresa>
+    <PrecioUnidad>9560660.00</PrecioUnidad>
+    <PrecioFinal>9799676.50</PrecioFinal>
+    <CodigoHash>E95EB8D622268F63EF4B2CDA1F1D37</CodigoHash>
+    <Estado>Autorizada</Estado>
+    <EsOferta>false</EsOferta>
+    <PorcentajeGastoGestoria>0.025</PorcentajeGastoGestoria>
+    <Anulada>false</Anulada>
+    <NotaRechazo />
+    <CodigoLiquidacion>JUN-01</CodigoLiquidacion>
+  </Operacion>
+  <Operacion>
+    <Numero>8</Numero>
+    <Fecha>2021-05-29T00:00:00-03:00</Fecha>
+    <Unidad>9</Unidad>
+    <Cliente>8</Cliente>
+    <UsuarioVendedor>4</UsuarioVendedor>
+    <PrecioPublico>6290500.00</PrecioPublico>
+    <Pauta>0.0369</Pauta>
+    <PatentaEmpresa>true</PatentaEmpresa>
+    <PrecioUnidad>5788290.00</PrecioUnidad>
+    <PrecioFinal>6423982.20</PrecioFinal>
+    <CodigoHash>7817CF103223124042A741CC606A49</CodigoHash>
+    <Estado>Autorizada</Estado>
+    <EsOferta>false</EsOferta>
+    <PorcentajeGastoGestoria>0.03</PorcentajeGastoGestoria>
+    <Anulada>false</Anulada>
+    <NotaRechazo />
+    <CodigoLiquidacion>JUN-01</CodigoLiquidacion>
+  </Operacion>
+  <Operacion>
+    <Numero>9</Numero>
+    <Fecha>2021-05-29T00:00:00-03:00</Fecha>
+    <Unidad>8</Unidad>
+    <Cliente>2</Cliente>
+    <UsuarioVendedor>1</UsuarioVendedor>
+    <PrecioPublico>2350000.00</PrecioPublico>
+    <Pauta>0.1255</Pauta>
+    <PatentaEmpresa>true</PatentaEmpresa>
+    <PrecioUnidad>2030000.00</PrecioUnidad>
+    <CodigoHash>8FAB84F5F160EEC3A05302EDC4E161</CodigoHash>
+    <Estado>Autorizada</Estado>
+    <EsOferta>false</EsOferta>
+    <PorcentajeGastoGestoria>0.03</PorcentajeGastoGestoria>
+    <Anulada>false</Anulada>
+    <NotaRechazo />
+    <CodigoLiquidacion>JUN-01</CodigoLiquidacion>
+  </Operacion>
+  <Operacion>
+    <Numero>10</Numero>
+    <Fecha>2021-05-29T00:00:00-03:00</Fecha>
+    <Unidad>5</Unidad>
+    <Cliente>7</Cliente>
+    <UsuarioVendedor>1</UsuarioVendedor>
+    <PrecioPublico>3500000.00</PrecioPublico>
+    <Pauta>0.0039</Pauta>
+    <PatentaEmpresa>true</PatentaEmpresa>
+    <PrecioUnidad>3420260.00</PrecioUnidad>
+    <CodigoHash>48B337D4540A1022463F7CFDAFE02B</CodigoHash>
+    <Estado>Autorizada</Estado>
+    <EsOferta>false</EsOferta>
+    <PorcentajeGastoGestoria>0.03</PorcentajeGastoGestoria>
+    <Anulada>false</Anulada>
+    <NotaRechazo />
+    <CodigoLiquidacion>JUN-01</CodigoLiquidacion>
+  </Operacion>
+  <Operacion>
+    <Numero>11</Numero>
+    <Fecha>2021-06-04T00:00:00-03:00</Fecha>
+    <Unidad>3</Unidad>
+    <Cliente>3</Cliente>
+    <UsuarioVendedor>5</UsuarioVendedor>
+    <PrecioPublico>6290500.00</PrecioPublico>
+    <Pauta>0.0369</Pauta>
+    <PatentaEmpresa>true</PatentaEmpresa>
+    <PrecioUnidad>5360620.00</PrecioUnidad>
+    <CodigoHash>564E09E67F5D492BF668238EC48AC1</CodigoHash>
+    <Estado>Autorizada</Estado>
+    <EsOferta>false</EsOferta>
+    <PorcentajeGastoGestoria>0.03</PorcentajeGastoGestoria>
+    <Anulada>false</Anulada>
+    <NotaRechazo />
+    <CodigoLiquidacion>JUN-01</CodigoLiquidacion>
+  </Operacion>
+  <Operacion>
+    <Numero>12</Numero>
+    <Fecha>2021-06-07T00:00:00-03:00</Fecha>
+    <Unidad>4</Unidad>
+    <Cliente>2</Cliente>
+    <UsuarioVendedor>4</UsuarioVendedor>
+    <PrecioPublico>3500000.00</PrecioPublico>
+    <Pauta>0.0039</Pauta>
+    <PatentaEmpresa>true</PatentaEmpresa>
+    <PrecioUnidad>3120250.00</PrecioUnidad>
+    <CodigoHash>86920D3B9E7F55D086BFEE7CBA5B99</CodigoHash>
+    <Estado>Autorizada</Estado>
+    <EsOferta>false</EsOferta>
+    <PorcentajeGastoGestoria>0.03</PorcentajeGastoGestoria>
+    <Anulada>false</Anulada>
+    <NotaRechazo />
+    <CodigoLiquidacion>JUN-02</CodigoLiquidacion>
+  </Operacion>
+  <Operacion>
+    <Numero>13</Numero>
+    <Fecha>2021-06-07T00:00:00-03:00</Fecha>
+    <Unidad>14</Unidad>
+    <Cliente>4</Cliente>
+    <UsuarioVendedor>5</UsuarioVendedor>
+    <PrecioPublico>6238290.00</PrecioPublico>
+    <Pauta>0.0241</Pauta>
+    <PatentaEmpresa>true</PatentaEmpresa>
+    <PrecioUnidad>6100000.00</PrecioUnidad>
+    <CodigoHash>2C55DDA835A61A24B939604F677D13</CodigoHash>
+    <Estado>Autorizada</Estado>
+    <EsOferta>false</EsOferta>
+    <PorcentajeGastoGestoria>0.03</PorcentajeGastoGestoria>
+    <Anulada>false</Anulada>
+    <NotaRechazo>No vender por menos de $6.100.000</NotaRechazo>
+    <CodigoLiquidacion>JUN-02</CodigoLiquidacion>
+  </Operacion>
+  <Operacion>
+    <Numero>14</Numero>
+    <Fecha>2021-06-09T00:00:00-03:00</Fecha>
+    <Unidad>16</Unidad>
+    <Cliente>4</Cliente>
+    <UsuarioVendedor>5</UsuarioVendedor>
+    <PrecioPublico>2350000.00</PrecioPublico>
+    <Pauta>0.1531</Pauta>
+    <PatentaEmpresa>true</PatentaEmpresa>
+    <PrecioUnidad>1990000.00</PrecioUnidad>
+    <CodigoHash>4786EF8740C24A52BF1A8A05696AE5</CodigoHash>
+    <Estado>Autorizada</Estado>
+    <EsOferta>false</EsOferta>
+    <PorcentajeGastoGestoria>0.03</PorcentajeGastoGestoria>
+    <Anulada>false</Anulada>
+    <NotaRechazo />
+    <CodigoLiquidacion>JUN-02</CodigoLiquidacion>
+  </Operacion>
+  <Operacion>
+    <Numero>15</Numero>
+    <Fecha>2021-06-10T00:00:00-03:00</Fecha>
+    <Unidad>1</Unidad>
+    <Cliente>2</Cliente>
+    <UsuarioVendedor>1</UsuarioVendedor>
+    <PrecioPublico>5300750.00</PrecioPublico>
+    <Pauta>0.0744</Pauta>
+    <PatentaEmpresa>false</PatentaEmpresa>
+    <PrecioUnidad>5000000.00</PrecioUnidad>
+    <CodigoHash>6265206E42ACE2C84E45514F20C66F</CodigoHash>
+    <Estado>Autorizada</Estado>
+    <EsOferta>false</EsOferta>
+    <PorcentajeGastoGestoria>0.03</PorcentajeGastoGestoria>
+    <Anulada>false</Anulada>
+    <NotaRechazo>El precio de unidad mínimo debe ser de 5millones; por favor renegociar</NotaRechazo>
+    <CodigoLiquidacion>JUN-02</CodigoLiquidacion>
+  </Operacion>
+  <Operacion>
+    <Numero>16</Numero>
+    <Fecha>2021-06-10T00:00:00-03:00</Fecha>
+    <Unidad>6</Unidad>
+    <Cliente>3</Cliente>
+    <UsuarioVendedor>4</UsuarioVendedor>
+    <PrecioPublico>2120390.00</PrecioPublico>
+    <Pauta>0.4630</Pauta>
+    <PatentaEmpresa>true</PatentaEmpresa>
+    <PrecioUnidad>1520360.00</PrecioUnidad>
+    <CodigoHash>F9E38F20D690DF0B66924CBB17B925</CodigoHash>
+    <Estado>Autorizada</Estado>
+    <EsOferta>false</EsOferta>
+    <PorcentajeGastoGestoria>0.03</PorcentajeGastoGestoria>
+    <Anulada>false</Anulada>
+    <CodigoLiquidacion>JUN-02</CodigoLiquidacion>
+  </Operacion>
+  <Operacion>
+    <Numero>17</Numero>
+    <Fecha>2021-06-11T00:00:00-03:00</Fecha>
+    <Unidad>10</Unidad>
+    <Cliente>13</Cliente>
+    <UsuarioVendedor>1</UsuarioVendedor>
+    <PrecioPublico>3500000.00</PrecioPublico>
+    <Pauta>0.0656</Pauta>
+    <PatentaEmpresa>true</PatentaEmpresa>
+    <PrecioUnidad>2790000.00</PrecioUnidad>
+    <CodigoHash>12D45D2A536A625410FCE283B060A5</CodigoHash>
+    <Estado>Autorizada</Estado>
+    <EsOferta>false</EsOferta>
+    <PorcentajeGastoGestoria>0.03</PorcentajeGastoGestoria>
+    <Anulada>false</Anulada>
+    <NotaRechazo />
+    <CodigoLiquidacion>JUN-02</CodigoLiquidacion>
+  </Operacion>
+  <Operacion>
+    <Numero>18</Numero>
+    <Fecha>2021-06-12T00:00:00-03:00</Fecha>
+    <Unidad>13</Unidad>
+    <Cliente>12</Cliente>
+    <UsuarioVendedor>4</UsuarioVendedor>
+    <PrecioPublico>6238290.00</PrecioPublico>
+    <Pauta>0.0222</Pauta>
+    <PatentaEmpresa>true</PatentaEmpresa>
+    <PrecioUnidad>6000000.00</PrecioUnidad>
+    <CodigoHash>6ACBAFD8A9F5E180C0626B2B0826BB</CodigoHash>
+    <Estado>Autorizada</Estado>
+    <EsOferta>false</EsOferta>
+    <PorcentajeGastoGestoria>0.03</PorcentajeGastoGestoria>
+    <Anulada>false</Anulada>
+    <NotaRechazo />
+    <AutorizadaEl>2021-06-12T20:07:09.1576754-03:00</AutorizadaEl>
+    <AutorizadaPor>2</AutorizadaPor>
+  </Operacion>
+  <Operacion>
+    <Numero>19</Numero>
+    <Fecha>2021-06-12T00:00:00-03:00</Fecha>
+    <Unidad>15</Unidad>
+    <Cliente>11</Cliente>
+    <UsuarioVendedor>5</UsuarioVendedor>
+    <PrecioPublico>6290500.00</PrecioPublico>
+    <Pauta>0.0369</Pauta>
+    <PatentaEmpresa>true</PatentaEmpresa>
+    <PrecioUnidad>5260620.00</PrecioUnidad>
+    <CodigoHash>93D2730E429BBE9A4D7FE97E5D605A</CodigoHash>
+    <Estado>Autorizada</Estado>
+    <EsOferta>false</EsOferta>
+    <PorcentajeGastoGestoria>0.03</PorcentajeGastoGestoria>
+    <Anulada>false</Anulada>
+    <NotaRechazo />
+    <AutorizadaEl>2021-06-12T20:34:57.2991048-03:00</AutorizadaEl>
+    <AutorizadaPor>2</AutorizadaPor>
+  </Operacion>
+  <Operacion>
+    <Numero>20</Numero>
+    <Fecha>2021-06-12T00:00:00-03:00</Fecha>
+    <Unidad>17</Unidad>
+    <Cliente>10</Cliente>
+    <UsuarioVendedor>4</UsuarioVendedor>
+    <PrecioPublico>6390500.00</PrecioPublico>
+    <Pauta>0.0363</Pauta>
+    <PatentaEmpresa>true</PatentaEmpresa>
+    <PrecioUnidad>5960210.00</PrecioUnidad>
+    <CodigoHash>FF3B2A9FE219681C2F6B2C276945F4</CodigoHash>
+    <Estado>Autorizada</Estado>
+    <EsOferta>false</EsOferta>
+    <PorcentajeGastoGestoria>0.03</PorcentajeGastoGestoria>
+    <Anulada>false</Anulada>
+    <NotaRechazo />
+    <AutorizadaEl>2021-06-12T21:01:20.5436929-03:00</AutorizadaEl>
+    <AutorizadaPor>2</AutorizadaPor>
+  </Operacion>
+  <OperacionFormaPago>
+    <NumeroOperacion>2</NumeroOperacion>
+    <FormaPagoID>1</FormaPagoID>
+    <Importe>92250.00</Importe>
+    <Modificable>false</Modificable>
+    <ArancelGasto>0</ArancelGasto>
+  </OperacionFormaPago>
+  <OperacionFormaPago>
+    <NumeroOperacion>2</NumeroOperacion>
+    <FormaPagoID>6</FormaPagoID>
+    <Importe>1230000.00</Importe>
+    <Modificable>true</Modificable>
+    <ArancelGasto>7.5</ArancelGasto>
+  </OperacionFormaPago>
+  <OperacionFormaPago>
+    <NumeroOperacion>1</NumeroOperacion>
+    <FormaPagoID>1</FormaPagoID>
+    <Importe>4220725</Importe>
+    <Modificable>false</Modificable>
+    <ArancelGasto>0</ArancelGasto>
+  </OperacionFormaPago>
+  <OperacionFormaPago>
+    <NumeroOperacion>1</NumeroOperacion>
+    <FormaPagoID>4</FormaPagoID>
+    <Importe>1085000.00</Importe>
+    <Modificable>true</Modificable>
+    <ArancelGasto>7.5</ArancelGasto>
+  </OperacionFormaPago>
+  <OperacionFormaPago>
+    <NumeroOperacion>1</NumeroOperacion>
+    <FormaPagoID>5</FormaPagoID>
+    <Importe>3500.00</Importe>
+    <Modificable>true</Modificable>
+    <ArancelGasto>10</ArancelGasto>
+  </OperacionFormaPago>
+  <OperacionFormaPago>
+    <NumeroOperacion>3</NumeroOperacion>
+    <FormaPagoID>1</FormaPagoID>
+    <Importe>2347250.00</Importe>
+    <Modificable>false</Modificable>
+    <ArancelGasto>0</ArancelGasto>
+  </OperacionFormaPago>
+  <OperacionFormaPago>
+    <NumeroOperacion>5</NumeroOperacion>
+    <FormaPagoID>1</FormaPagoID>
+    <Importe>2255000.00</Importe>
+    <Modificable>false</Modificable>
+    <ArancelGasto>15.88</ArancelGasto>
+  </OperacionFormaPago>
+  <OperacionFormaPago>
+    <NumeroOperacion>6</NumeroOperacion>
+    <FormaPagoID>1</FormaPagoID>
+    <Importe>1999047.59</Importe>
+    <Modificable>false</Modificable>
+    <ArancelGasto>18</ArancelGasto>
+  </OperacionFormaPago>
+  <OperacionFormaPago>
+    <NumeroOperacion>4</NumeroOperacion>
+    <FormaPagoID>1</FormaPagoID>
+    <Importe>86500</Importe>
+    <Modificable>false</Modificable>
+    <ArancelGasto>0</ArancelGasto>
+  </OperacionFormaPago>
+  <OperacionFormaPago>
+    <NumeroOperacion>4</NumeroOperacion>
+    <FormaPagoID>2</FormaPagoID>
+    <Importe>1070000.00</Importe>
+    <Modificable>true</Modificable>
+    <ArancelGasto>7.5</ArancelGasto>
+  </OperacionFormaPago>
+  <OperacionFormaPago>
+    <NumeroOperacion>8</NumeroOperacion>
+    <FormaPagoID>1</FormaPagoID>
+    <Importe>843692.20</Importe>
+    <Modificable>false</Modificable>
+    <ArancelGasto>0</ArancelGasto>
+  </OperacionFormaPago>
+  <OperacionFormaPago>
+    <NumeroOperacion>8</NumeroOperacion>
+    <FormaPagoID>2</FormaPagoID>
+    <Importe>5000000.00</Importe>
+    <Modificable>true</Modificable>
+    <ArancelGasto>7.50</ArancelGasto>
+  </OperacionFormaPago>
+  <OperacionFormaPago>
+    <NumeroOperacion>8</NumeroOperacion>
+    <FormaPagoID>6</FormaPagoID>
+    <Importe>580290.00</Importe>
+    <Modificable>true</Modificable>
+    <ArancelGasto>15</ArancelGasto>
+  </OperacionFormaPago>
+  <OperacionFormaPago>
+    <NumeroOperacion>9</NumeroOperacion>
+    <FormaPagoID>1</FormaPagoID>
+    <Importe>732850.00</Importe>
+    <Modificable>false</Modificable>
+    <ArancelGasto>0</ArancelGasto>
+  </OperacionFormaPago>
+  <OperacionFormaPago>
+    <NumeroOperacion>9</NumeroOperacion>
+    <FormaPagoID>4</FormaPagoID>
+    <Importe>1500000.00</Importe>
+    <Modificable>true</Modificable>
+    <ArancelGasto>15.88</ArancelGasto>
+  </OperacionFormaPago>
+  <OperacionFormaPago>
+    <NumeroOperacion>9</NumeroOperacion>
+    <FormaPagoID>3</FormaPagoID>
+    <Importe>50000.00</Importe>
+    <Modificable>true</Modificable>
+    <ArancelGasto>0</ArancelGasto>
+  </OperacionFormaPago>
+  <OperacionFormaPago>
+    <NumeroOperacion>9</NumeroOperacion>
+    <FormaPagoID>2</FormaPagoID>
+    <Importe>50000.00</Importe>
+    <Modificable>true</Modificable>
+    <ArancelGasto>7.50</ArancelGasto>
+  </OperacionFormaPago>
+  <OperacionFormaPago>
+    <NumeroOperacion>10</NumeroOperacion>
+    <FormaPagoID>1</FormaPagoID>
+    <Importe>3522867.80</Importe>
+    <Modificable>false</Modificable>
+    <ArancelGasto>0</ArancelGasto>
+  </OperacionFormaPago>
+  <OperacionFormaPago>
+    <NumeroOperacion>7</NumeroOperacion>
+    <FormaPagoID>1</FormaPagoID>
+    <Importe>9799676.50</Importe>
+    <Modificable>false</Modificable>
+    <ArancelGasto>0</ArancelGasto>
+  </OperacionFormaPago>
+  <OperacionFormaPago>
+    <NumeroOperacion>11</NumeroOperacion>
+    <FormaPagoID>1</FormaPagoID>
+    <Importe>1315438.60</Importe>
+    <Modificable>false</Modificable>
+    <ArancelGasto>0</ArancelGasto>
+  </OperacionFormaPago>
+  <OperacionFormaPago>
+    <NumeroOperacion>11</NumeroOperacion>
+    <FormaPagoID>4</FormaPagoID>
+    <Importe>5000000.00</Importe>
+    <Modificable>true</Modificable>
+    <ArancelGasto>15.88</ArancelGasto>
+  </OperacionFormaPago>
+  <OperacionFormaPago>
+    <NumeroOperacion>12</NumeroOperacion>
+    <FormaPagoID>1</FormaPagoID>
+    <Importe>1696639.38</Importe>
+    <Modificable>false</Modificable>
+    <ArancelGasto>0</ArancelGasto>
+  </OperacionFormaPago>
+  <OperacionFormaPago>
+    <NumeroOperacion>12</NumeroOperacion>
+    <FormaPagoID>5</FormaPagoID>
+    <Importe>1850266.00</Importe>
+    <Modificable>true</Modificable>
+    <ArancelGasto>18</ArancelGasto>
+  </OperacionFormaPago>
+  <OperacionFormaPago>
+    <NumeroOperacion>14</NumeroOperacion>
+    <FormaPagoID>1</FormaPagoID>
+    <Importe>2049700.00</Importe>
+    <Modificable>false</Modificable>
+    <ArancelGasto>0</ArancelGasto>
+  </OperacionFormaPago>
+  <OperacionFormaPago>
+    <NumeroOperacion>16</NumeroOperacion>
+    <FormaPagoID>1</FormaPagoID>
+    <Importe>286170.80</Importe>
+    <Modificable>false</Modificable>
+    <ArancelGasto>0</ArancelGasto>
+  </OperacionFormaPago>
+  <OperacionFormaPago>
+    <NumeroOperacion>16</NumeroOperacion>
+    <FormaPagoID>3</FormaPagoID>
+    <Importe>18000.00</Importe>
+    <Modificable>true</Modificable>
+    <ArancelGasto>0</ArancelGasto>
+  </OperacionFormaPago>
+  <OperacionFormaPago>
+    <NumeroOperacion>16</NumeroOperacion>
+    <FormaPagoID>4</FormaPagoID>
+    <Importe>1500000.00</Importe>
+    <Modificable>true</Modificable>
+    <ArancelGasto>15.88</ArancelGasto>
+  </OperacionFormaPago>
+  <OperacionFormaPago>
+    <NumeroOperacion>13</NumeroOperacion>
+    <FormaPagoID>1</FormaPagoID>
+    <Importe>6283000.00</Importe>
+    <Modificable>false</Modificable>
+    <ArancelGasto>0</ArancelGasto>
+  </OperacionFormaPago>
+  <OperacionFormaPago>
+    <NumeroOperacion>15</NumeroOperacion>
+    <FormaPagoID>1</FormaPagoID>
+    <Importe>1762500.00</Importe>
+    <Modificable>false</Modificable>
+    <ArancelGasto>0</ArancelGasto>
+  </OperacionFormaPago>
+  <OperacionFormaPago>
+    <NumeroOperacion>15</NumeroOperacion>
+    <FormaPagoID>2</FormaPagoID>
+    <Importe>3500000.00</Importe>
+    <Modificable>true</Modificable>
+    <ArancelGasto>7.50</ArancelGasto>
+  </OperacionFormaPago>
+  <OperacionFormaPago>
+    <NumeroOperacion>17</NumeroOperacion>
+    <FormaPagoID>1</FormaPagoID>
+    <Importe>770700.00</Importe>
+    <Modificable>false</Modificable>
+    <ArancelGasto>0</ArancelGasto>
+  </OperacionFormaPago>
+  <OperacionFormaPago>
+    <NumeroOperacion>17</NumeroOperacion>
+    <FormaPagoID>4</FormaPagoID>
+    <Importe>2500000.00</Importe>
+    <Modificable>true</Modificable>
+    <ArancelGasto>15.88</ArancelGasto>
+  </OperacionFormaPago>
+  <OperacionFormaPago>
+    <NumeroOperacion>18</NumeroOperacion>
+    <FormaPagoID>1</FormaPagoID>
+    <Importe>6180000.00</Importe>
+    <Modificable>false</Modificable>
+    <ArancelGasto>0</ArancelGasto>
+  </OperacionFormaPago>
+  <OperacionFormaPago>
+    <NumeroOperacion>19</NumeroOperacion>
+    <FormaPagoID>1</FormaPagoID>
+    <Importe>5418438.60</Importe>
+    <Modificable>false</Modificable>
+    <ArancelGasto>0</ArancelGasto>
+  </OperacionFormaPago>
+  <OperacionFormaPago>
+    <NumeroOperacion>20</NumeroOperacion>
+    <FormaPagoID>1</FormaPagoID>
+    <Importe>1539016.30</Importe>
+    <Modificable>false</Modificable>
+    <ArancelGasto>0</ArancelGasto>
+  </OperacionFormaPago>
+  <OperacionFormaPago>
+    <NumeroOperacion>20</NumeroOperacion>
+    <FormaPagoID>7</FormaPagoID>
+    <Importe>5000000.00</Importe>
+    <Modificable>true</Modificable>
+    <ArancelGasto>8</ArancelGasto>
+  </OperacionFormaPago>
+  <TipoContacto>
+    <TipoContactoID>1</TipoContactoID>
+    <Descripcion>Teléfono Fijo</Descripcion>
+    <ExpresionValidacion>^0(\d{2}-\d{8}|\d{3}-\d{7}|\d{4}-\d{6})$</ExpresionValidacion>
+    <TextoAyuda>Un teléfono válido debe estar conformado de la siguiente manera:
+&gt; Prefijo interurbano comenzando con el cero, un guión y el resto del número.
+&gt; Ejemplos: 011-43080223 o 03467-456456</TextoAyuda>
+    <Activo>true</Activo>
+    <PermiteNotificaciones>false</PermiteNotificaciones>
+  </TipoContacto>
+  <TipoContacto>
+    <TipoContactoID>2</TipoContactoID>
+    <Descripcion>Celular</Descripcion>
+    <ExpresionValidacion>^0(\d{2}-15-\d{8}|\d{3}-15-\d{7}|\d{4}-15-\d{6})$</ExpresionValidacion>
+    <TextoAyuda>Un celular válido tiene el siguiente formato:
+&gt; Código de área comenzando siempre con cero seguido de un guión, luego el quince, otro guión y finalmente el resto del número.
+&gt;Ejemplos: 011-15-44444444 o 03461-15-123456</TextoAyuda>
+    <Activo>true</Activo>
+    <PermiteNotificaciones>false</PermiteNotificaciones>
+  </TipoContacto>
+  <TipoContacto>
+    <TipoContactoID>3</TipoContactoID>
+    <Descripcion>E-Mail</Descripcion>
+    <ExpresionValidacion>^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$</ExpresionValidacion>
+    <TextoAyuda>Un formato de correo correcto debe contener '@' y terminar con '.xx' (siendo 'x' cualquier caractér válido).</TextoAyuda>
+    <Activo>true</Activo>
+    <PermiteNotificaciones>true</PermiteNotificaciones>
+  </TipoContacto>
+  <TipoContacto>
+    <TipoContactoID>4</TipoContactoID>
+    <Descripcion>Página Web</Descripcion>
+    <ExpresionValidacion>^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$</ExpresionValidacion>
+    <TextoAyuda />
+    <Activo>true</Activo>
+    <PermiteNotificaciones>false</PermiteNotificaciones>
+  </TipoContacto>
+  <TipoContacto>
+    <TipoContactoID>5</TipoContactoID>
+    <Descripcion>Instagram</Descripcion>
+    <ExpresionValidacion />
+    <TextoAyuda />
+    <Activo>true</Activo>
+    <PermiteNotificaciones>false</PermiteNotificaciones>
+  </TipoContacto>
+  <TipoContacto>
+    <TipoContactoID>6</TipoContactoID>
+    <Descripcion>Facebook</Descripcion>
+    <ExpresionValidacion />
+    <TextoAyuda />
+    <Activo>true</Activo>
+    <PermiteNotificaciones>false</PermiteNotificaciones>
+  </TipoContacto>
+  <TipoContacto>
+    <TipoContactoID>7</TipoContactoID>
+    <Descripcion>TikTok</Descripcion>
+    <ExpresionValidacion />
+    <TextoAyuda />
+    <Activo>false</Activo>
+    <PermiteNotificaciones>false</PermiteNotificaciones>
+  </TipoContacto>
+  <TipoContacto>
+    <TipoContactoID>9</TipoContactoID>
+    <Descripcion>Twitter</Descripcion>
+    <ExpresionValidacion>^@[A-Za-z0-9_]{1,15}$</ExpresionValidacion>
+    <TextoAyuda>Un usuario de Twitter debe comenzar con @, contener hasta 15 caractéres y solo puede incluir '_'.</TextoAyuda>
+    <Activo>true</Activo>
+    <PermiteNotificaciones>false</PermiteNotificaciones>
+  </TipoContacto>
+  <Liquidacion>
+    <Codigo>JUN-01</Codigo>
+    <FechaLiquidacion>2021-06-07T00:00:00-03:00</FechaLiquidacion>
+    <Comentarios>Primer Liquidación</Comentarios>
+  </Liquidacion>
+  <Liquidacion>
+    <Codigo>JUN-02</Codigo>
+    <FechaLiquidacion>2021-06-12T00:00:00-03:00</FechaLiquidacion>
+    <Comentarios>TEST</Comentarios>
+  </Liquidacion>
+  <LiquidacionVendedor>
+    <CodigoLiquidacion>JUN-01</CodigoLiquidacion>
+    <UsuarioVendedor>1</UsuarioVendedor>
+    <PorcentajeComision>0.011</PorcentajeComision>
+    <PremioVolumen>18500.00</PremioVolumen>
+    <CodigoHash>C2B8768C46386638C80CBF1BED89AC</CodigoHash>
+  </LiquidacionVendedor>
+  <LiquidacionVendedor>
+    <CodigoLiquidacion>JUN-01</CodigoLiquidacion>
+    <UsuarioVendedor>5</UsuarioVendedor>
+    <PorcentajeComision>0.009</PorcentajeComision>
+    <PremioVolumen>0</PremioVolumen>
+    <CodigoHash>168B76D85D618C6889391D087BBFD6</CodigoHash>
+  </LiquidacionVendedor>
+  <LiquidacionVendedor>
+    <CodigoLiquidacion>JUN-01</CodigoLiquidacion>
+    <UsuarioVendedor>4</UsuarioVendedor>
+    <PorcentajeComision>0.009</PorcentajeComision>
+    <PremioVolumen>0</PremioVolumen>
+    <CodigoHash>861C485E36DFBC5DC920095260123B</CodigoHash>
+  </LiquidacionVendedor>
+  <LiquidacionVendedor>
+    <CodigoLiquidacion>JUN-02</CodigoLiquidacion>
+    <UsuarioVendedor>4</UsuarioVendedor>
+    <PorcentajeComision>0.009</PorcentajeComision>
+    <PremioVolumen>18500.00</PremioVolumen>
+    <CodigoHash>DE32DCF8F0E2A68C5B1AB47F47924A</CodigoHash>
+  </LiquidacionVendedor>
+  <LiquidacionVendedor>
+    <CodigoLiquidacion>JUN-02</CodigoLiquidacion>
+    <UsuarioVendedor>5</UsuarioVendedor>
+    <PorcentajeComision>0.009</PorcentajeComision>
+    <PremioVolumen>18500.00</PremioVolumen>
+    <CodigoHash>D7BE188C1CC1D04AAAF98D2975E309</CodigoHash>
+  </LiquidacionVendedor>
+  <LiquidacionVendedor>
+    <CodigoLiquidacion>JUN-02</CodigoLiquidacion>
+    <UsuarioVendedor>1</UsuarioVendedor>
+    <PorcentajeComision>0.009</PorcentajeComision>
+    <PremioVolumen>18500.00</PremioVolumen>
+    <CodigoHash>B12DC32CBE76DAEC79FDC525CBB648</CodigoHash>
+  </LiquidacionVendedor>
+</NewDataSet>

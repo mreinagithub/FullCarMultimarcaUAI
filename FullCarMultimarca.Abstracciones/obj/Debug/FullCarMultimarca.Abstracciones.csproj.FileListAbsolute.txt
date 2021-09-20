@@ -1,0 +1,6 @@
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.Abstracciones\bin\Debug\FullCarMultimarca.Abstracciones.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.Abstracciones\bin\Debug\FullCarMultimarca.Abstracciones.pdb
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.Abstracciones\obj\Debug\FullCarMultimarca.Abstracciones.csproj.CoreCompileInputs.cache
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.Abstracciones\obj\Debug\FullCarMultimarca.Abstracciones.dll
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.Abstracciones\obj\Debug\FullCarMultimarca.Abstracciones.pdb
+H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.Abstracciones\obj\Debug\FullCarMultimarca.Abstracciones.csproj.AssemblyReference.cache
