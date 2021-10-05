@@ -15,12 +15,14 @@ namespace FullCarMultimarca.Servicios
     public class ServicioCorreo : IServicioCorreo
     {
         public ServicioCorreo()
-        {
-            SMTP = "smtp.gmail.com";
-            Puerto = 587; //25;
-            Usuario = "fullcarmultimarcauai@gmail.com";
-            DisplayName = "FULLCAR Multimarca";
-            Password = "Fc070621!";
+        {   
+            //PARA QUE ESTE SERVIDIO FUNCIONE DEBE ESPECIFICAR LA INFORMACIÓN A CONTINUACIÓN.
+
+            //SMTP = "[SMTP DEL SERVIDOR DE CORREO]";
+            //Puerto = [PUERTO DEL SERVIDOR DE CORREO];
+            //Usuario = "[DIRECCION DE CORREO]";
+            //DisplayName = "[NOMBRE A MOSTRAR COMO REMITENTE]";
+            //Password = "[CLAVE DEL USUARIO DE CORREO]";
 
         }
 

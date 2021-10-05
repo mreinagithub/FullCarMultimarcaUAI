@@ -6778,4 +6778,16 @@
     <Usuario>admin</Usuario>
     <Operacion>ALTA de Operacion - OP- 00000038</Operacion>
   </Log>
+  <Log>
+    <CodigoTransaccion>1fe9a15d-ad7e-4dcb-88d7-866b6d391424</CodigoTransaccion>
+    <Fecha>2021-10-05T00:49:21.7764408-03:00</Fecha>
+    <Usuario>admin</Usuario>
+    <Operacion>Unidad SWQE5313WQ1EQWE30 - OFERTA VENCIDA.</Operacion>
+  </Log>
+  <Log>
+    <CodigoTransaccion>16174774-6486-458d-9666-f766ad84c5c6</CodigoTransaccion>
+    <Fecha>2021-10-05T00:49:21.8584408-03:00</Fecha>
+    <Usuario>admin</Usuario>
+    <Operacion>Unidad RQW55QWW43AS1D355 - OFERTA VENCIDA.</Operacion>
+  </Log>
 </NewDataSet>

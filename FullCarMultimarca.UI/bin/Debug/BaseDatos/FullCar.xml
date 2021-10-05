@@ -324,53 +324,53 @@
         <xs:field xpath="CodigoLiquidacion" />
         <xs:field xpath="UsuarioVendedor" />
       </xs:unique>
-      <xs:keyref name="DR_LiquidacionVendedor_Vendedor" refer="Constraint1" msdata:DeleteRule="None">
-        <xs:selector xpath=".//LiquidacionVendedor" />
-        <xs:field xpath="UsuarioVendedor" />
-      </xs:keyref>
       <xs:keyref name="DR_LiquidacionVendedor_Liquidacion" refer="Liquidacion_Constraint1">
         <xs:selector xpath=".//LiquidacionVendedor" />
         <xs:field xpath="CodigoLiquidacion" />
       </xs:keyref>
-      <xs:keyref name="DR_OperacionFormaPago_Operacion" refer="Operacion_Constraint1">
-        <xs:selector xpath=".//OperacionFormaPago" />
-        <xs:field xpath="NumeroOperacion" />
+      <xs:keyref name="DR_LiquidacionVendedor_Vendedor" refer="Constraint1" msdata:DeleteRule="None">
+        <xs:selector xpath=".//LiquidacionVendedor" />
+        <xs:field xpath="UsuarioVendedor" />
       </xs:keyref>
       <xs:keyref name="DR_OperacionFormaPago_FormaPago" refer="FormaPago_Constraint1" msdata:DeleteRule="None">
         <xs:selector xpath=".//OperacionFormaPago" />
         <xs:field xpath="FormaPagoID" />
       </xs:keyref>
-      <xs:keyref name="DR_Operacion_UsuarioAutorizacion" refer="Constraint1" msdata:DeleteRule="None">
-        <xs:selector xpath=".//Operacion" />
-        <xs:field xpath="AutorizadaPor" />
-      </xs:keyref>
-      <xs:keyref name="DR_Operacion_Unidad" refer="Unidad_Constraint1" msdata:DeleteRule="None">
-        <xs:selector xpath=".//Operacion" />
-        <xs:field xpath="Unidad" />
-      </xs:keyref>
-      <xs:keyref name="DR_Operacion_Cliente" refer="Cliente_Constraint1" msdata:DeleteRule="None">
-        <xs:selector xpath=".//Operacion" />
-        <xs:field xpath="Cliente" />
+      <xs:keyref name="DR_OperacionFormaPago_Operacion" refer="Operacion_Constraint1">
+        <xs:selector xpath=".//OperacionFormaPago" />
+        <xs:field xpath="NumeroOperacion" />
       </xs:keyref>
       <xs:keyref name="DR_Operacion_Vendedor" refer="Constraint1" msdata:DeleteRule="None">
         <xs:selector xpath=".//Operacion" />
         <xs:field xpath="UsuarioVendedor" />
       </xs:keyref>
-      <xs:keyref name="DR_Unidad_Color" refer="ColorUnidad_Constraint1" msdata:DeleteRule="None">
-        <xs:selector xpath=".//Unidad" />
-        <xs:field xpath="ColorID" />
+      <xs:keyref name="DR_Operacion_Cliente" refer="Cliente_Constraint1" msdata:DeleteRule="None">
+        <xs:selector xpath=".//Operacion" />
+        <xs:field xpath="Cliente" />
+      </xs:keyref>
+      <xs:keyref name="DR_Operacion_Unidad" refer="Unidad_Constraint1" msdata:DeleteRule="None">
+        <xs:selector xpath=".//Operacion" />
+        <xs:field xpath="Unidad" />
+      </xs:keyref>
+      <xs:keyref name="DR_Operacion_UsuarioAutorizacion" refer="Constraint1" msdata:DeleteRule="None">
+        <xs:selector xpath=".//Operacion" />
+        <xs:field xpath="AutorizadaPor" />
       </xs:keyref>
       <xs:keyref name="DR_Unidad_Modelo" refer="Modelo_Constraint1" msdata:DeleteRule="None">
         <xs:selector xpath=".//Unidad" />
         <xs:field xpath="CodigoModelo" />
       </xs:keyref>
-      <xs:keyref name="DR_Cliente_Contacto" refer="Cliente_Constraint1">
-        <xs:selector xpath=".//Contacto" />
-        <xs:field xpath="ClienteID" />
+      <xs:keyref name="DR_Unidad_Color" refer="ColorUnidad_Constraint1" msdata:DeleteRule="None">
+        <xs:selector xpath=".//Unidad" />
+        <xs:field xpath="ColorID" />
       </xs:keyref>
       <xs:keyref name="DR_Contacto_TipoContacto" refer="TipoContacto_Constraint1" msdata:DeleteRule="None">
         <xs:selector xpath=".//Contacto" />
         <xs:field xpath="Tipo" />
+      </xs:keyref>
+      <xs:keyref name="DR_Cliente_Contacto" refer="Cliente_Constraint1">
+        <xs:selector xpath=".//Contacto" />
+        <xs:field xpath="ClienteID" />
       </xs:keyref>
       <xs:keyref name="DR_Cliente_Provincia" refer="Provincia_Constraint1" msdata:DeleteRule="None">
         <xs:selector xpath=".//Cliente" />
@@ -384,13 +384,13 @@
         <xs:selector xpath=".//Modelo" />
         <xs:field xpath="MarcaID" />
       </xs:keyref>
-      <xs:keyref name="DR_Permiso_Permiso_2" refer="Permiso_Constraint1">
-        <xs:selector xpath=".//PermisoPermiso" />
-        <xs:field xpath="CodigoPermiso2" />
-      </xs:keyref>
       <xs:keyref name="DR_Permiso_Permiso_1" refer="Permiso_Constraint1">
         <xs:selector xpath=".//PermisoPermiso" />
         <xs:field xpath="CodigoPermiso1" />
+      </xs:keyref>
+      <xs:keyref name="DR_Permiso_Permiso_2" refer="Permiso_Constraint1">
+        <xs:selector xpath=".//PermisoPermiso" />
+        <xs:field xpath="CodigoPermiso2" />
       </xs:keyref>
       <xs:keyref name="DR_Usuario_Permiso" refer="Permiso_Constraint1" msdata:DeleteRule="None">
         <xs:selector xpath=".//Usuario" />
@@ -422,12 +422,12 @@
     <Apellido>Reina</Apellido>
     <Bloqueado>false</Bloqueado>
     <Activo>true</Activo>
-    <Password>QddPNJOy70fuBfJMrldPjHMUhI4=</Password>
-    <FechaUltimoCambioPassword>2021-06-19T14:26:57.7125673-03:00</FechaUltimoCambioPassword>
+    <Password>o7doWU4BPHQ0I5o1xz7jc21kmu4=</Password>
+    <FechaUltimoCambioPassword>2021-10-05T00:49:18.9031901-03:00</FechaUltimoCambioPassword>
     <PalabraClave>Respuesta "administrador"</PalabraClave>
     <RespuestaClave>GH0Drf/PIzwKOt1ZmO0nfI0sFrQ=</RespuestaClave>
     <CodigoPermiso>PCADMIN</CodigoPermiso>
-    <CodigoHash>36A9DCF6D2E2F0E84E7F364C1AD3AC</CodigoHash>
+    <CodigoHash>B3E8BC04E4A60E5CA7E870C13CB110</CodigoHash>
     <Email>martinreina84@hotmail.com</Email>
   </Usuario>
   <Usuario>
@@ -467,12 +467,11 @@
     <Apellido>Uno</Apellido>
     <Bloqueado>false</Bloqueado>
     <Activo>true</Activo>
-    <Password>G3uzTgkwXoMX1NDkG1vZujS9J8w=</Password>
-    <FechaUltimoCambioPassword>2021-06-12T01:55:59.7675878-03:00</FechaUltimoCambioPassword>
+    <Password>e1uwbCZ0dq4JW48NZe8+LLG0jL8=</Password>
     <PalabraClave>La respuesta es "vendedor1"</PalabraClave>
     <RespuestaClave>7aimOvEaSp2Ky3M8VzrmxlAw8EA=</RespuestaClave>
     <CodigoPermiso>PCVEN</CodigoPermiso>
-    <CodigoHash>ABFC84B55EE734F87784804591AD37</CodigoHash>
+    <CodigoHash>BF4AFAA1D7E7ADB8C0F02F8F735C25</CodigoHash>
     <Email>MartinAlberto.Reina@alumnos.uai.edu.ar</Email>
   </Usuario>
   <Usuario>
@@ -875,11 +874,11 @@
   </PermisoPermiso>
   <ProteccionDatos>
     <Tabla>Usuario</Tabla>
-    <CodigoHash>A2CAA9FFBA5493A6F184B8264F922C</CodigoHash>
+    <CodigoHash>1E0FA5AD99B5F43883140335180D32</CodigoHash>
   </ProteccionDatos>
   <ProteccionDatos>
     <Tabla>Unidad</Tabla>
-    <CodigoHash>D8AAB88CA343345F6BB1FC7ACD1142</CodigoHash>
+    <CodigoHash>9FED707387BF8749B7646571E61F79</CodigoHash>
   </ProteccionDatos>
   <ProteccionDatos>
     <Tabla>Operacion</Tabla>
@@ -1731,9 +1730,7 @@ Frente</Direccion>
     <Disponible>true</Disponible>
     <FechaCompra>2021-06-18T00:00:00-03:00</FechaCompra>
     <ImporteCompra>6824358.00</ImporteCompra>
-    <Oferta>8200000.00</Oferta>
-    <VencimientoOferta>2021-08-13T00:00:00-03:00</VencimientoOferta>
-    <CodigoHash>D6E10803D8E884CB55F5BAAABC9EDA</CodigoHash>
+    <CodigoHash>ABC21CEB63EBE1696D0C2E1CCDF07D</CodigoHash>
   </Unidad>
   <Unidad>
     <UnidadID>24</UnidadID>
@@ -1813,9 +1810,7 @@ Frente</Direccion>
     <Disponible>true</Disponible>
     <FechaCompra>2021-06-30T00:00:00-03:00</FechaCompra>
     <ImporteCompra>1526639.00</ImporteCompra>
-    <Oferta>2000000.00</Oferta>
-    <VencimientoOferta>2021-08-18T00:00:00-03:00</VencimientoOferta>
-    <CodigoHash>BA023862A8C26B34C5A484275EED45</CodigoHash>
+    <CodigoHash>39551CB6B379EB522B1415F63BD0A8</CodigoHash>
   </Unidad>
   <Unidad>
     <UnidadID>32</UnidadID>
