@@ -4,3 +4,9 @@ H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\
 H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.Vistas\obj\Debug\FullCarMultimarca.Vistas.dll
 H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.Vistas\obj\Debug\FullCarMultimarca.Vistas.pdb
 H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.Vistas\obj\Debug\FullCarMultimarca.Vistas.csproj.AssemblyReference.cache
+H:\Documents\Excel y Otros\Facultad\UAI - Analista Programador\Aprobadas\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.Vistas\bin\Debug\FullCarMultimarca.Vistas.dll
+H:\Documents\Excel y Otros\Facultad\UAI - Analista Programador\Aprobadas\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.Vistas\bin\Debug\FullCarMultimarca.Vistas.pdb
+H:\Documents\Excel y Otros\Facultad\UAI - Analista Programador\Aprobadas\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.Vistas\obj\Debug\FullCarMultimarca.Vistas.csproj.AssemblyReference.cache
+H:\Documents\Excel y Otros\Facultad\UAI - Analista Programador\Aprobadas\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.Vistas\obj\Debug\FullCarMultimarca.Vistas.csproj.CoreCompileInputs.cache
+H:\Documents\Excel y Otros\Facultad\UAI - Analista Programador\Aprobadas\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.Vistas\obj\Debug\FullCarMultimarca.Vistas.dll
+H:\Documents\Excel y Otros\Facultad\UAI - Analista Programador\Aprobadas\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.Vistas\obj\Debug\FullCarMultimarca.Vistas.pdb

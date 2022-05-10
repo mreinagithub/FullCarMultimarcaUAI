@@ -4,3 +4,9 @@ H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\
 H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.DAL\obj\Debug\FullCarMultimarca.DAL.dll
 H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.DAL\obj\Debug\FullCarMultimarca.DAL.pdb
 H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Trabajo Final\TP FINAL\Proyecto\FullCarMultimarca\FullCarMultimarca.DAL\obj\Debug\FullCarMultimarca.DAL.csproj.AssemblyReference.cache
+H:\Documents\Excel y Otros\Facultad\UAI - Analista Programador\Aprobadas\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.DAL\bin\Debug\FullCarMultimarca.DAL.dll
+H:\Documents\Excel y Otros\Facultad\UAI - Analista Programador\Aprobadas\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.DAL\bin\Debug\FullCarMultimarca.DAL.pdb
+H:\Documents\Excel y Otros\Facultad\UAI - Analista Programador\Aprobadas\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.DAL\obj\Debug\FullCarMultimarca.DAL.csproj.AssemblyReference.cache
+H:\Documents\Excel y Otros\Facultad\UAI - Analista Programador\Aprobadas\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.DAL\obj\Debug\FullCarMultimarca.DAL.csproj.CoreCompileInputs.cache
+H:\Documents\Excel y Otros\Facultad\UAI - Analista Programador\Aprobadas\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.DAL\obj\Debug\FullCarMultimarca.DAL.dll
+H:\Documents\Excel y Otros\Facultad\UAI - Analista Programador\Aprobadas\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.DAL\obj\Debug\FullCarMultimarca.DAL.pdb

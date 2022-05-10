@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4cd186c3-252f-49a8-9571-f7a4bba5cb22": {
+      "ProjectGuid": "4cd186c3-252f-49a8-9571-f7a4bba5cb22",
+      "DisplayName": "FullCarMultimarca.Servicios",
+      "ColorIndex": 0
+    },
+    "3ee15709-eca7-4050-ba99-f4e1d087bd19": {
+      "ProjectGuid": "3ee15709-eca7-4050-ba99-f4e1d087bd19",
+      "DisplayName": "FullCarMultimarca.BLL",
+      "ColorIndex": 1
+    },
+    "9cbe19e9-34c5-4445-aa8f-e9423f5db22e": {
+      "ProjectGuid": "9cbe19e9-34c5-4445-aa8f-e9423f5db22e",
+      "DisplayName": "FullCarMultimarca.UI",
+      "ColorIndex": 2
+    },
+    "69c7b584-e66d-43ed-a73e-c85a0a60ea3d": {
+      "ProjectGuid": "69c7b584-e66d-43ed-a73e-c85a0a60ea3d",
+      "DisplayName": "FullCarMultimarca.MPP",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

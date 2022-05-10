@@ -25,3 +25,12 @@ H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Aprobadas\Trabajo Final\TP FINAL
 H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Aprobadas\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.Servicios\obj\Debug\FullCarMultimarca.Servicios.csproj.CopyComplete
 H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Aprobadas\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.Servicios\obj\Debug\FullCarMultimarca.Servicios.dll
 H:\Documents\Google Drive\PERSONAL\FACULTAD\UAI\Aprobadas\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.Servicios\obj\Debug\FullCarMultimarca.Servicios.pdb
+H:\Documents\Excel y Otros\Facultad\UAI - Analista Programador\Aprobadas\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.Servicios\bin\Debug\FullCarMultimarca.Servicios.dll
+H:\Documents\Excel y Otros\Facultad\UAI - Analista Programador\Aprobadas\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.Servicios\bin\Debug\FullCarMultimarca.Servicios.pdb
+H:\Documents\Excel y Otros\Facultad\UAI - Analista Programador\Aprobadas\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.Servicios\bin\Debug\FullCarMultimarca.Abstracciones.dll
+H:\Documents\Excel y Otros\Facultad\UAI - Analista Programador\Aprobadas\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.Servicios\bin\Debug\FullCarMultimarca.Abstracciones.pdb
+H:\Documents\Excel y Otros\Facultad\UAI - Analista Programador\Aprobadas\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.Servicios\obj\Debug\FullCarMultimarca.Servicios.csproj.AssemblyReference.cache
+H:\Documents\Excel y Otros\Facultad\UAI - Analista Programador\Aprobadas\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.Servicios\obj\Debug\FullCarMultimarca.Servicios.csproj.CoreCompileInputs.cache
+H:\Documents\Excel y Otros\Facultad\UAI - Analista Programador\Aprobadas\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.Servicios\obj\Debug\FullCarMultimarca.Servicios.csproj.CopyComplete
+H:\Documents\Excel y Otros\Facultad\UAI - Analista Programador\Aprobadas\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.Servicios\obj\Debug\FullCarMultimarca.Servicios.dll
+H:\Documents\Excel y Otros\Facultad\UAI - Analista Programador\Aprobadas\Trabajo Final\TP FINAL\3ra Entrega\FullCarMultimarca\FullCarMultimarca.Servicios\obj\Debug\FullCarMultimarca.Servicios.pdb

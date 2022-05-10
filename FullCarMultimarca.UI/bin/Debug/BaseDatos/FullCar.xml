@@ -324,53 +324,53 @@
         <xs:field xpath="CodigoLiquidacion" />
         <xs:field xpath="UsuarioVendedor" />
       </xs:unique>
-      <xs:keyref name="DR_LiquidacionVendedor_Liquidacion" refer="Liquidacion_Constraint1">
-        <xs:selector xpath=".//LiquidacionVendedor" />
-        <xs:field xpath="CodigoLiquidacion" />
-      </xs:keyref>
       <xs:keyref name="DR_LiquidacionVendedor_Vendedor" refer="Constraint1" msdata:DeleteRule="None">
         <xs:selector xpath=".//LiquidacionVendedor" />
         <xs:field xpath="UsuarioVendedor" />
       </xs:keyref>
-      <xs:keyref name="DR_OperacionFormaPago_FormaPago" refer="FormaPago_Constraint1" msdata:DeleteRule="None">
-        <xs:selector xpath=".//OperacionFormaPago" />
-        <xs:field xpath="FormaPagoID" />
+      <xs:keyref name="DR_LiquidacionVendedor_Liquidacion" refer="Liquidacion_Constraint1">
+        <xs:selector xpath=".//LiquidacionVendedor" />
+        <xs:field xpath="CodigoLiquidacion" />
       </xs:keyref>
       <xs:keyref name="DR_OperacionFormaPago_Operacion" refer="Operacion_Constraint1">
         <xs:selector xpath=".//OperacionFormaPago" />
         <xs:field xpath="NumeroOperacion" />
       </xs:keyref>
-      <xs:keyref name="DR_Operacion_Vendedor" refer="Constraint1" msdata:DeleteRule="None">
-        <xs:selector xpath=".//Operacion" />
-        <xs:field xpath="UsuarioVendedor" />
-      </xs:keyref>
-      <xs:keyref name="DR_Operacion_Cliente" refer="Cliente_Constraint1" msdata:DeleteRule="None">
-        <xs:selector xpath=".//Operacion" />
-        <xs:field xpath="Cliente" />
-      </xs:keyref>
-      <xs:keyref name="DR_Operacion_Unidad" refer="Unidad_Constraint1" msdata:DeleteRule="None">
-        <xs:selector xpath=".//Operacion" />
-        <xs:field xpath="Unidad" />
+      <xs:keyref name="DR_OperacionFormaPago_FormaPago" refer="FormaPago_Constraint1" msdata:DeleteRule="None">
+        <xs:selector xpath=".//OperacionFormaPago" />
+        <xs:field xpath="FormaPagoID" />
       </xs:keyref>
       <xs:keyref name="DR_Operacion_UsuarioAutorizacion" refer="Constraint1" msdata:DeleteRule="None">
         <xs:selector xpath=".//Operacion" />
         <xs:field xpath="AutorizadaPor" />
       </xs:keyref>
-      <xs:keyref name="DR_Unidad_Modelo" refer="Modelo_Constraint1" msdata:DeleteRule="None">
-        <xs:selector xpath=".//Unidad" />
-        <xs:field xpath="CodigoModelo" />
+      <xs:keyref name="DR_Operacion_Unidad" refer="Unidad_Constraint1" msdata:DeleteRule="None">
+        <xs:selector xpath=".//Operacion" />
+        <xs:field xpath="Unidad" />
+      </xs:keyref>
+      <xs:keyref name="DR_Operacion_Cliente" refer="Cliente_Constraint1" msdata:DeleteRule="None">
+        <xs:selector xpath=".//Operacion" />
+        <xs:field xpath="Cliente" />
+      </xs:keyref>
+      <xs:keyref name="DR_Operacion_Vendedor" refer="Constraint1" msdata:DeleteRule="None">
+        <xs:selector xpath=".//Operacion" />
+        <xs:field xpath="UsuarioVendedor" />
       </xs:keyref>
       <xs:keyref name="DR_Unidad_Color" refer="ColorUnidad_Constraint1" msdata:DeleteRule="None">
         <xs:selector xpath=".//Unidad" />
         <xs:field xpath="ColorID" />
       </xs:keyref>
-      <xs:keyref name="DR_Contacto_TipoContacto" refer="TipoContacto_Constraint1" msdata:DeleteRule="None">
-        <xs:selector xpath=".//Contacto" />
-        <xs:field xpath="Tipo" />
+      <xs:keyref name="DR_Unidad_Modelo" refer="Modelo_Constraint1" msdata:DeleteRule="None">
+        <xs:selector xpath=".//Unidad" />
+        <xs:field xpath="CodigoModelo" />
       </xs:keyref>
       <xs:keyref name="DR_Cliente_Contacto" refer="Cliente_Constraint1">
         <xs:selector xpath=".//Contacto" />
         <xs:field xpath="ClienteID" />
+      </xs:keyref>
+      <xs:keyref name="DR_Contacto_TipoContacto" refer="TipoContacto_Constraint1" msdata:DeleteRule="None">
+        <xs:selector xpath=".//Contacto" />
+        <xs:field xpath="Tipo" />
       </xs:keyref>
       <xs:keyref name="DR_Cliente_Provincia" refer="Provincia_Constraint1" msdata:DeleteRule="None">
         <xs:selector xpath=".//Cliente" />
@@ -384,13 +384,13 @@
         <xs:selector xpath=".//Modelo" />
         <xs:field xpath="MarcaID" />
       </xs:keyref>
-      <xs:keyref name="DR_Permiso_Permiso_1" refer="Permiso_Constraint1">
-        <xs:selector xpath=".//PermisoPermiso" />
-        <xs:field xpath="CodigoPermiso1" />
-      </xs:keyref>
       <xs:keyref name="DR_Permiso_Permiso_2" refer="Permiso_Constraint1">
         <xs:selector xpath=".//PermisoPermiso" />
         <xs:field xpath="CodigoPermiso2" />
+      </xs:keyref>
+      <xs:keyref name="DR_Permiso_Permiso_1" refer="Permiso_Constraint1">
+        <xs:selector xpath=".//PermisoPermiso" />
+        <xs:field xpath="CodigoPermiso1" />
       </xs:keyref>
       <xs:keyref name="DR_Usuario_Permiso" refer="Permiso_Constraint1" msdata:DeleteRule="None">
         <xs:selector xpath=".//Usuario" />
@@ -422,12 +422,12 @@
     <Apellido>Reina</Apellido>
     <Bloqueado>false</Bloqueado>
     <Activo>true</Activo>
-    <Password>o7doWU4BPHQ0I5o1xz7jc21kmu4=</Password>
-    <FechaUltimoCambioPassword>2021-10-05T00:49:18.9031901-03:00</FechaUltimoCambioPassword>
+    <Password>QddPNJOy70fuBfJMrldPjHMUhI4=</Password>
+    <FechaUltimoCambioPassword>2022-05-10T10:57:53.9997286-03:00</FechaUltimoCambioPassword>
     <PalabraClave>Respuesta "administrador"</PalabraClave>
     <RespuestaClave>GH0Drf/PIzwKOt1ZmO0nfI0sFrQ=</RespuestaClave>
     <CodigoPermiso>PCADMIN</CodigoPermiso>
-    <CodigoHash>B3E8BC04E4A60E5CA7E870C13CB110</CodigoHash>
+    <CodigoHash>0ACCA6AEE522C48D2AF41073F9263F</CodigoHash>
     <Email>martinreina84@hotmail.com</Email>
   </Usuario>
   <Usuario>
@@ -874,7 +874,7 @@
   </PermisoPermiso>
   <ProteccionDatos>
     <Tabla>Usuario</Tabla>
-    <CodigoHash>1E0FA5AD99B5F43883140335180D32</CodigoHash>
+    <CodigoHash>013049EE3006B3021847A4E5FE22F1</CodigoHash>
   </ProteccionDatos>
   <ProteccionDatos>
     <Tabla>Unidad</Tabla>
