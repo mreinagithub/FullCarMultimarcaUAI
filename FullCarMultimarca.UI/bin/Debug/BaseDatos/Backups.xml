@@ -64,4 +64,10 @@
     <NombreArchivo>20210813 122821-FullCarMultimarca.xml</NombreArchivo>
     <Descripcion>Previo presentación FINAL 2</Descripcion>
   </Catalogo>
+  <Catalogo>
+    <FechaYHora>2022-05-27T13:22:40.0473252-03:00</FechaYHora>
+    <Creador>admin</Creador>
+    <NombreArchivo>20220527 132240-FullCarMultimarca.xml</NombreArchivo>
+    <Descripcion>Probá con este backup</Descripcion>
+  </Catalogo>
 </NewDataSet>

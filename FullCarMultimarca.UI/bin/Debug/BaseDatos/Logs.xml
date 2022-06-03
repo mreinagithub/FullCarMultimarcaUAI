@@ -6790,4 +6790,10 @@
     <Usuario>admin</Usuario>
     <Operacion>Unidad RQW55QWW43AS1D355 - OFERTA VENCIDA.</Operacion>
   </Log>
+  <Log>
+    <CodigoTransaccion>d32fc7e0-94b0-43bd-8a8a-3206b64cfe4a</CodigoTransaccion>
+    <Fecha>2022-05-27T13:22:40.0731175-03:00</Fecha>
+    <Usuario>admin</Usuario>
+    <Operacion>Backup del día 27/05/2022 13:22:40 generado.</Operacion>
+  </Log>
 </NewDataSet>
