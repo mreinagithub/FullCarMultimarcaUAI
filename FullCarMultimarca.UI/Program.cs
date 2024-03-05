@@ -14,6 +14,7 @@ namespace FullCarMultimarca.UI
         [STAThread]
         static void Main()
         {
+            //ESTE ES EL MAIN
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new FormMenu());
